@@ -1,0 +1,8 @@
+JavaScript puede cambiar el contenido HTML
+
+Uno de los muchos métodos HTML JavaScript es getElementById ().
+
+Este ejemplo utiliza el método para 'encontrar' un elemento HTML (con id = 'demo') y cambia el contenido del elemento (innerHTML) a 'Hola JavaScript':
+
+document.getElementById("demo").innerHTML = "Hello JavaScript"; 
+document.getElementById('demo').innerHTML = 'Hello JavaScript'; 
