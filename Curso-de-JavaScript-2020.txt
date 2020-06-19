@@ -1,0 +1,213 @@
+https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Table_Role
+
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+
+Tutorial JS
+JS HOME
+Introducción JS
+JS donde
+Salida JS
+Declaraciones JS
+Sintaxis JS
+Comentarios de JS
+Variables JS
+Operadores JS
+Aritmética JS
+Asignación JS
+Tipos de datos JS
+Funciones JS
+Objetos JS
+JS Events
+JS Strings
+Métodos de cadena JS
+Números JS
+Métodos de números JS
+Matrices JS
+Métodos de matriz JS
+JS Array Sort
+JS Array Iteration
+Fechas JS
+Formatos de fecha JS
+Fecha JS Obtener métodos
+Métodos de ajuste de fecha JS
+JS Math
+JS Random
+JS Booleans
+JS Comparaciones
+Condiciones JS
+JS Switch
+JS Loop For
+JS Loop While
+JS Break
+Conversión de tipo JS
+JS Bitwise
+JS RegExp
+Errores JS
+Alcance de JS
+Levantamiento JS
+Modo estricto JS
+JS esta palabra clave
+JS Let
+JS Const
+Función de flecha JS
+Clases JS
+Depuración de JS
+JS Style Guide
+Mejores prácticas de JS
+Errores de JS
+JS Performance
+Palabras reservadas de JS
+Versiones JS
+JS versión ES5
+JS versión ES6
+JS JSON
+
+JS Forms
+JS Forms
+API de formularios
+
+Objetos JS
+Definiciones de objetos
+Propiedades del objeto
+Métodos de objeto
+Visualización de objetos
+Accesores de objetos
+Constructores de objetos
+Prototipos de objetos
+Objeto ECMAScript 5
+
+Funciones JS
+Definiciones de funciones
+Parámetros de funciones
+Invocación de funciones
+Llamada de función
+Función Aplicar
+Cierres de funciones
+
+JS HTML DOM
+Introducción DOM
+Métodos DOM
+Documento DOM
+Elementos DOM
+DOM HTML
+DOM CSS
+Animaciones DOM
+Eventos DOM
+Oyente de eventos DOM
+Navegación DOM
+Nodos DOM
+Colecciones DOM
+Listas de nodos DOM
+
+BOM del navegador JS
+Ventana JS
+Pantalla JS
+JS Ubicación
+JS History
+JS Navigator
+Alerta emergente JS
+JS Timing
+Cookies JS
+
+JS AJAX
+Introducción a AJAX
+AJAX XMLHttp
+Solicitud AJAX
+Respuesta AJAX
+Archivo XML AJAX
+PHP AJAX
+AJAX ASP
+Base de datos AJAX
+Aplicaciones AJAX
+Ejemplos AJAX
+
+JS JSON
+Introducción a JSON
+Sintaxis JSON
+JSON vs XML
+Tipos de datos JSON
+JSON Parse
+JSON Stringify
+Objetos JSON
+Matrices JSON
+JSON PHP
+JSON HTML
+JSON JSONP
+
+JS vs jQuery
+Selectores jQuery
+jQuery HTML
+jQuery CSS
+jQuery DOM
+
+JS Ejemplos
+JS Ejemplos
+JS HTML DOM
+Entrada HTML JS
+JS HTML Objects
+JS HTML Events
+Navegador JS
+JS Editor
+Ejercicios JS
+JS Quiz
+Certificado JS
+
+Referencias JS
+Objetos JavaScript
+Objetos HTML DOM
+
+============================================================
+
+Temas relacionados
+
+¡Los principiantes completos comienzan aquí!
+Comenzando con la Web
+Introducción a la descripción general de la web
+Instalar software básico
+¿Cómo será tu sitio web?
+Manejo de archivos
+Conceptos básicos de HTML
+Conceptos básicos de CSS
+Conceptos básicos de JavaScript
+Publicando su sitio web
+Cómo funciona la web
+HTML - Estructurando la Web
+Introducción a HTML
+Multimedia e incrustación
+Tablas HTML
+CSS - Estilizando la Web
+Primeros pasos de CSS
+Bloques de construcción CSS
+Texto de estilo
+Diseño CSS
+JavaScript: secuencias de comandos dinámicas del lado del cliente
+JavaScript primeros pasos
+Bloques de construcción de JavaScript
+Introduciendo objetos JavaScript
+JavaScript asincrónico
+API web del lado del cliente
+Formularios web: trabajar con datos de usuario
+Vía de aprendizaje de formas básicas
+Artículos de formularios avanzados
+Accesibilidad: haga que la web sea utilizable por todos
+Guías de accesibilidad
+Evaluación de accesibilidad
+Herramientas y pruebas
+Prueba cruzada del navegador
+Git y GitHub
+Introducción a los marcos del lado del cliente
+Reaccionar
+Ascua
+Vue
+Programación de sitios web del lado del servidor
+Primeros pasos
+Marco web Django (Python)
+Express Web Framework (node.js / JavaScript)
+Recursos adicionales
+Preguntas comunes
+Cómo contribuir

@@ -1,0 +1,15 @@
+==========================================================
+
+constructor
+Devuelve la función que creó el prototipo del objeto Array
+
+==========================================================
+
+length
+Establece o devuelve el número de elementos en una matriz
+
+==========================================================
+
+prototype
+Le permite agregar propiedades y métodos a un objeto Array
+==========================================================

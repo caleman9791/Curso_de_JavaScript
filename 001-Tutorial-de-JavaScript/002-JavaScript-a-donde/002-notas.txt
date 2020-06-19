@@ -1,1 +1,14 @@
-002-notas.txt
+La etiqueta de script
+
+En HTML, el código JavaScript se inserta entre el script y las etiquetas / script.
+
+JavaScript en cabeza o cuerpo
+
+Puede colocar cualquier número de scripts en un documento HTML.
+
+Las secuencias de comandos se pueden colocar en el cuerpo, o en la sección de encabezado de una página HTML, o en ambos.
+JavaScript en la cabeza
+
+En este ejemplo, se coloca una función de JavaScript en la sección de encabezado de una página HTML.
+
+La función se invoca (se llama) cuando se hace clic en un botón:

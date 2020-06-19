@@ -6,3 +6,16 @@ Este ejemplo utiliza el método para 'encontrar' un elemento HTML (con id = 'dem
 
 document.getElementById("demo").innerHTML = "Hello JavaScript"; 
 document.getElementById('demo').innerHTML = 'Hello JavaScript'; 
+
+¿Por qué estudiar JavaScript?
+
+JavaScript es uno de los 3 idiomas que todos los desarrolladores web deben aprender:
+
+   1. HTML para definir el contenido de las páginas web
+
+   2. CSS para especificar el diseño de las páginas web
+
+   3. JavaScript para programar el comportamiento de las páginas web
+
+Las páginas web no son el único lugar donde se usa JavaScript. Muchos programas de escritorio y servidor usan JavaScript. Node.js es el más conocido. Algunas bases de datos, como MongoDB y CouchDB, también usan JavaScript como lenguaje de programación.
+¿Sabías?

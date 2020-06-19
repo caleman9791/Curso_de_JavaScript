@@ -1,3 +1,0 @@
-https://developer.mozilla.org/en-US/docs/Web/Accessibility
-
-https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Table_Role

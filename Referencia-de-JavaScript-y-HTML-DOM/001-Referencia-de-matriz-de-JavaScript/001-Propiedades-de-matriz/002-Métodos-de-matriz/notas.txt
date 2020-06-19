@@ -1,0 +1,120 @@
+=========================================================================================
+concat ()
+une dos o más matrices y devuelve una copia de las matrices unidas
+
+=========================================================================================
+copyWithin ()
+Copia elementos de la matriz dentro de la matriz, desde y hacia posiciones especificadas
+
+=========================================================================================
+entradas ()
+Devuelve un par clave / valor Array Iteration Object
+
+=========================================================================================
+every ()
+Comprueba si cada elemento de una matriz pasa una prueba
+
+=========================================================================================
+fill ()
+Rellena los elementos en una matriz con un valor estático
+
+=========================================================================================
+filter ()
+Crea una nueva matriz con cada elemento de una matriz que pasa una prueba
+
+=========================================================================================
+find ()
+Devuelve el valor del primer elemento en una matriz que pasa una prueba
+
+=========================================================================================
+findIndex ()
+Devuelve el índice del primer elemento en una matriz que pasa una prueba
+
+=========================================================================================
+forEach ()
+Invoca una función para cada elemento de matriz
+
+=========================================================================================
+from ()
+Crea una matriz a partir de un objeto
+
+=========================================================================================
+incluye ()
+Compruebe si una matriz contiene el elemento especificado
+
+=========================================================================================
+indexOf ()
+Busca en la matriz un elemento y devuelve su posición
+
+=========================================================================================
+isArray ()
+Comprueba si un objeto es una matriz
+
+=========================================================================================
+join ()
+Une todos los elementos de una matriz en una cadena
+
+=========================================================================================
+keys ()
+Devuelve un objeto de iteración de matriz, que contiene las claves de la matriz original
+
+=========================================================================================
+lastIndexOf ()
+Busca en la matriz un elemento, comenzando por el final, y devuelve su posición
+
+=========================================================================================
+map ()
+Crea una nueva matriz con el resultado de llamar a una función para cada elemento de la matriz
+
+=========================================================================================
+pop ()
+Elimina el último elemento de una matriz y devuelve ese elemento
+
+=========================================================================================
+push ()
+Agrega nuevos elementos al final de una matriz y devuelve la nueva longitud
+
+=========================================================================================
+reduce ()
+Reduce los valores de una matriz a un solo valor (de izquierda a derecha)
+
+=========================================================================================
+reduceRight ()
+Reduce los valores de una matriz a un solo valor (de derecha a izquierda)
+
+=========================================================================================
+reverse ()
+Invierte el orden de los elementos en una matriz
+
+=========================================================================================
+shift ()
+Elimina el primer elemento de una matriz y devuelve ese elemento
+
+=========================================================================================
+slice ()
+Selecciona una parte de una matriz y devuelve la nueva matriz
+
+=========================================================================================
+some ()
+Comprueba si alguno de los elementos de una matriz pasa una prueba
+
+=========================================================================================
+sort ()
+Ordena los elementos de una matriz
+
+=========================================================================================
+splice ()
+Agrega / elimina elementos de una matriz
+
+=========================================================================================
+toString ()
+Convierte una matriz en una cadena y devuelve el resultado
+
+=========================================================================================
+unshift ()
+Agrega nuevos elementos al comienzo de una matriz y devuelve la nueva longitud
+=========================================================================================
+
+valueOf ()
+Devuelve el valor primitivo de una matriz
+========================================================================================
