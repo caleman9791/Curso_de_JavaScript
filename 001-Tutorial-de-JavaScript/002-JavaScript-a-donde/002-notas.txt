@@ -12,3 +12,12 @@ JavaScript en la cabeza
 En este ejemplo, se coloca una función de JavaScript en la sección de encabezado de una página HTML.
 
 La función se invoca (se llama) cuando se hace clic en un botón:
+
+
+ <button onclick="myFunction()">Click me</button> 
+ 
+ <element onclick="myScript"> 
+
+ object.onclick = function(){myScript};
+
+ object.addEventListener("click", myScript);
