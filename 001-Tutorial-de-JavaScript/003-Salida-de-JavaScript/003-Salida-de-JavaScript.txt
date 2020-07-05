@@ -21,9 +21,28 @@ https://developer.mozilla.org/en-US/docs/Web/API/console
 
 Idiomas derivados del latín – Lista de lenguas
 https://viajarfull.com/idiomas-derivados-del-latin/
+
 The definitive source of the best
 JavaScript libraries, frameworks, and plugins.
 https://www.javascripting.com/
 
 List of JavaScript libraries
 https://en.wikipedia.org/wiki/List_of_JavaScript_libraries
+
+
+
+==================================
+
+<!--     <button onclick="window.print()">
+      Print
+    </button>
+    <button onclick="myFunction()">
+      New window
+    </button>
+    <button onclick="ejecutaalerta()">
+      Alerta
+    </button>
+    <button onclick="document.write(5 + 6)" type="button">
+      Prueba
+    </button> -->
+    <!-- <input name="btn" type="button" value="Boton definido"/> -->

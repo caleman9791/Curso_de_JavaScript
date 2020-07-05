@@ -30,7 +30,7 @@ function ejecutaalerta(argument) {
 
 function myFunction() {
 
-    var myWindow = window.open("", "MsgWindow", "width=300,height=300");
+    var myWindow = window.open("", "MsgWindow", "width=500,height=300");
     myWindow.document.write("<p> Escribimos un parafo dentro de una ventana nueva </p>");
     myWindow.document.body.appendChild(btninput);
 }
