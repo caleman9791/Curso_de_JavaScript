@@ -1,0 +1,341 @@
+004-Declaraciones-JavaScript.txt
+
+var x, y, z;    // Statement 1
+x = 5;          // Statement 2
+y = 6;          // Statement 3
+z = x + y;      // Statement 4
+
+document.getElementById("demo").innerHTML = "Hello Dolly."; 
+
+var a, b, c;     // Declare 3 variables
+a = 5;           // Assign the value 5 to a
+b = 6;           // Assign the value 6 to b
+c = a + b;       // Assign the sum of a and b to c
+
+a = 5; b = 6; c = a + b;
+
+var person = "Hege";
+var person="Hege";
+
+var x = y + z; 
+
+document.getElementById("demo").innerHTML =
+"Hello Dolly!"; 
+
+function myFunction() {
+  document.getElementById("demo1").innerHTML = "Hello Dolly!";
+  document.getElementById("demo2").innerHTML = "How are you?";
+}
+
+Keywords
+Reserved keywords as of ECMAScript 2015
+
+    break
+    case
+    catch
+    class
+    const
+    continue
+    debugger
+    default
+    delete
+    do
+    else
+    export
+    extends
+    finally
+    for
+    function
+    if
+    import
+    in
+    instanceof
+    new
+    return
+    super
+    switch
+    this
+    throw
+    try
+    typeof
+    var
+    void
+    while
+    with
+    yield
+
+
+
+    Future reserved keywords
+
+The following are reserved as future keywords by the ECMAScript specification. They have no special functionality at present, but they might at some future time, so they cannot be used as identifiers.
+
+These are always reserved:
+
+    enum
+
+The following are only reserved when they are found in strict mode code:
+
+    implements
+    interface
+    let
+    package
+    private
+    protected
+    public
+    static
+
+The following are only reserved when they are found in module code:
+
+    await
+
+Future reserved keywords in older standards
+
+The following are reserved as future keywords by older ECMAScript specifications (ECMAScript 1 till 3).
+
+    abstract
+    boolean
+    byte
+    char
+    double
+    final
+    float
+    goto
+    int
+    long
+    native
+    short
+    synchronized
+    throws
+    transient
+    volatile
+
+Additionally, the literals null, true, and false cannot be used as identifiers in ECMAScript.
+
+
+http://es5.github.io/#A.1
+
+
+Identifiers with special meanings
+
+A few identifiers have a special meaning in some contexts without being keywords of any kind. They include:
+
+    arguments
+    get
+    set
+
+
+Literals
+Null literal
+
+See also null for more information.
+
+null
+
+Boolean literal
+
+See also Boolean for more information.
+
+true
+false
+
+Numeric literals
+
+The Number and BigInt types use numeric literals.
+
+Tenga en cuenta que los literales decimales pueden comenzar con un cero (0) seguido de otro dígito decimal, pero si todos los dígitos después del 0 inicial son menores que 8, el número se interpreta como un número octal. Esto no arrojará JavaScript, vea el error 957513. Consulte también la página sobre parseInt ()
+
+Declaraciones y declaraciones por categoría.
+
+Para una lista alfabética, vea la barra lateral a la izquierda.
+Flujo de control
+
+Block
+    Una declaración de bloque se usa para agrupar cero o más declaraciones. El bloque está delimitado por un par de llaves.
+break
+    Termina la declaración actual de bucle, interruptor o etiqueta y transfiere el control del programa a la declaración que sigue a la declaración terminada.
+continue
+    Termina la ejecución de las declaraciones en la iteración actual del bucle actual o etiquetado, y continúa la ejecución del bucle con la siguiente iteración.
+Empty
+    Se utiliza una declaración vacía para no proporcionar ninguna declaración, aunque la sintaxis de JavaScript esperaría una.
+if...else
+    Ejecuta una declaración si una condición especificada es verdadera. Si la condición es falsa, se puede ejecutar otra declaración.
+switch
+    Evalúa una expresión, haciendo coincidir el valor de la expresión con una cláusula de caso, y ejecuta declaraciones asociadas con ese caso.
+throw
+    Lanza una excepción definida por el usuario.
+try...catch
+    Marca un bloque de declaraciones para probar y especifica una respuesta, en caso de que se produzca una excepción.
+
+Declaraciones
+
+var
+    Declara una variable, opcionalmente inicializándola en un valor.
+let
+    Declara una variable local de ámbito de bloque, opcionalmente inicializándola en un valor.
+const
+    Declara una constante llamada de solo lectura.
+
+Funciones y clases.
+
+función
+    Declara una función con los parámetros especificados.
+función*
+    Las funciones de generador permiten escribir iteradores más fácilmente.
+async function
+    Declara una función asíncrona con los parámetros especificados.
+return
+    Especifica el valor que debe devolver una función.
+class
+    Declara una clase.
+
+Iteraciones
+
+do...while
+    Crea un bucle que ejecuta una instrucción específica hasta que la condición de prueba se evalúa como falsa. La condición se evalúa después de ejecutar la declaración, lo que hace que la declaración especificada se ejecute al menos una vez.
+for
+    Crea un bucle que consta de tres expresiones opcionales, encerradas entre paréntesis y separadas por punto y coma, seguidas de una instrucción ejecutada en el bucle.
+for each...in  
+    Itera una variable especificada sobre todos los valores de las propiedades del objeto. Para cada propiedad distinta, se ejecuta una instrucción específica.
+for...in
+    Itera las propiedades enumerables de un objeto, en orden arbitrario. Para cada propiedad distinta, se pueden ejecutar declaraciones.
+for...of
+    Itera sobre objetos iterables (incluidas matrices, objetos similares a matrices, iteradores y generadores), invocando un enlace de iteración personalizado con declaraciones que se ejecutarán para el valor de cada propiedad distinta.
+for await...of
+    Itera sobre objetos iterables asíncronos, objetos de tipo matriz, iteradores y generadores, invocando un enlace de iteración personalizado con declaraciones que se ejecutarán para el valor de cada propiedad distinta.
+while
+    Crea un bucle que ejecuta una instrucción específica siempre que la condición de prueba se evalúe como verdadera. La condición se evalúa antes de ejecutar la declaración.
+
+Otros
+
+debugger
+    Invoca cualquier funcionalidad de depuración disponible. Si no hay ninguna función de depuración disponible, esta declaración no tiene efecto.
+export
+    Se utiliza para exportar funciones para que estén disponibles para importaciones en módulos externos y otros scripts.
+import
+    Se usa para importar funciones exportadas desde un módulo externo, otro script.
+import.meta
+    Un objeto que expone metadatos específicos de contexto a un módulo JavaScript.
+label
+    Proporciona una declaración con un identificador al que puede referirse utilizando una declaración de interrupción o continuación.
+
+with 
+    Extiende la cadena de alcance para una declaración.
+
+====================================================================
+W3
+
+    JavaScript Reserved Words
+In JavaScript you cannot use these reserved words as variables, labels, or function names:
+abstract 	 arguments 	  await* 	  boolean
+break 	     byte 	      case 	      catch
+char 	     class* 	  const 	  continue
+debugger 	 default 	   delete 	  do
+double 	else 	enum* 	eval
+export* 	extends* 	false 	final
+finally 	float 	for 	function
+goto 	if 	implements 	import*
+in 	instanceof 	int 	interface
+let* 	long 	native 	new
+null 	package 	private 	protected
+public 	return 	short 	static
+super* 	switch 	synchronized 	this
+throw 	throws 	transient 	true
+try 	typeof 	var 	void
+volatile 	while 	with 	yield
+
+
+Removed Reserved Words
+The following reserved words have been removed from the ECMAScript 5/6 standard:
+abstract 	boolean 	byte 	char
+double 	final 	float 	goto
+int 	long 	native 	short
+synchronized 	throws 	transient 	volatile
+
+
+JavaScript Objects, Properties, and Methods
+You should also avoid using the name of JavaScript built-in objects, properties, and methods:
+Array 	Date 	eval 	function
+hasOwnProperty 	Infinity 	isFinite 	isNaN
+isPrototypeOf 	length 	Math 	NaN
+name 	Number 	Object 	prototype
+String 	toString 	undefined 	valueOf
+
+
+Java Reserved Words
+JavaScript is often used together with Java. You should avoid using some Java objects and properties as JavaScript identifiers:
+getClass 	java 	JavaArray 	javaClass
+JavaObject 	JavaPackage
+
+
+Other Reserved Words
+
+JavaScript can be used as the programming language in many applications.
+You should also avoid using the name of HTML and Window objects and properties:
+alert 	all 	anchor 	anchors
+area 	assign 	blur 	button
+checkbox 	clearInterval 	clearTimeout 	clientInformation
+close 	closed 	confirm 	constructor
+crypto 	decodeURI 	decodeURIComponent 	defaultStatus
+document 	element 	elements 	embed
+embeds 	encodeURI 	encodeURIComponent 	escape
+event 	fileUpload 	focus 	form
+forms 	frame 	innerHeight 	innerWidth
+layer 	layers 	link 	location
+mimeTypes 	navigate 	navigator 	frames
+frameRate 	hidden 	history 	image
+images 	offscreenBuffering 	open 	opener
+option 	outerHeight 	outerWidth 	packages
+pageXOffset 	pageYOffset 	parent 	parseFloat
+parseInt 	password 	pkcs11 	plugin
+prompt 	propertyIsEnum 	radio 	reset
+screenX 	screenY 	scroll 	secure
+select 	self 	setInterval 	setTimeout
+status 	submit 	taint 	text
+textarea 	top 	unescape 	untaint
+window 			
+
+HTML Event Handlers
+
+In addition you should avoid using the name of all HTML event handlers.
+Examples:
+onblur 	onclick 	onerror 	onfocus
+onkeydown 	onkeypress 	onkeyup 	onmouseover
+onload 	onmouseup 	onmousedown 	onsubmit
+
+
+
+
+JavaScript / Statements
+
+    async function
+    block
+    break
+    class
+    const
+    continue
+    debugger
+    default
+    do...while
+    Empty
+    export
+    for
+    for each...in
+    for-await...of
+    for...in
+    for...of
+    function
+    function*
+    if...else
+    import
+    import.meta
+    label
+    let
+    return
+    switch
+    throw
+    try...catch
+    var
+    while
+    with
+

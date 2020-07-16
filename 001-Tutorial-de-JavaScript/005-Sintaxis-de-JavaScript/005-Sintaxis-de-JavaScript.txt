@@ -1,0 +1,219 @@
+
+
+10.50
+
+1001
+
+
+"John Doe"
+
+'John Doe'
+
+
+var _cualQiuerNombre;
+
+x = 6;
+
+
+(5 + 6) * 10
+
+
+var x, y;
+x = 5;
+y = 6;
+
+5 * 10
+
+x * 10
+
+
+"John" + " " +  x + " " + "Doe"
+
+
+var x, y;
+x = 5 + 6;
+y = x * 10;
+
+
+var x = 5;   // I will be executed
+
+// var x = 6;   I will NOT be executed
+
+var lastname, lastName;
+lastName = "Doe";
+lastname = "Peterson";
+
+
+$jslvbhfjvbh
+_jjvfbdvjflfj
+
+
+nombreDeCliente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tring.prototype.charCodeAt() can convert string characters to ASCII numbers. For example:
+
+"ABC".charCodeAt(0) // returns 65
+
+For opposite use String.fromCharCode(10) that convert numbers to equal ASCII character. This function can accept multiple numbers and join all the characters then return the string. Example:
+
+String.fromCharCode(65,66,67); // returns 'ABC'
+
+Here is a quick ASCII characters reference:
+
+{
+"31": "",      "32": " ",     "33": "!",     "34": "\"",    "35": "#",    
+"36": "$",     "37": "%",     "38": "&",     "39": "'",     "40": "(",    
+"41": ")",     "42": "*",     "43": "+",     "44": ",",     "45": "-",    
+"46": ".",     "47": "/",     "48": "0",     "49": "1",     "50": "2",    
+"51": "3",     "52": "4",     "53": "5",     "54": "6",     "55": "7",    
+"56": "8",     "57": "9",     "58": ":",     "59": ";",     "60": "<",    
+"61": "=",     "62": ">",     "63": "?",     "64": "@",     "65": "A",    
+"66": "B",     "67": "C",     "68": "D",     "69": "E",     "70": "F",    
+"71": "G",     "72": "H",     "73": "I",     "74": "J",     "75": "K",    
+"76": "L",     "77": "M",     "78": "N",     "79": "O",     "80": "P",    
+"81": "Q",     "82": "R",     "83": "S",     "84": "T",     "85": "U",    
+"86": "V",     "87": "W",     "88": "X",     "89": "Y",     "90": "Z",    
+"91": "[",     "92": "\\",    "93": "]",     "94": "^",     "95": "_",    
+"96": "`",     "97": "a",     "98": "b",     "99": "c",     "100": "d",    
+"101": "e",    "102": "f",    "103": "g",    "104": "h",    "105": "i",    
+"106": "j",    "107": "k",    "108": "l",    "109": "m",    "110": "n",    
+"111": "o",    "112": "p",    "113": "q",    "114": "r",    "115": "s",    
+"116": "t",    "117": "u",    "118": "v",    "119": "w",    "120": "x",    
+"121": "y",    "122": "z",    "123": "{",    "124": "|",    "125": "}",    
+"126": "~",    "127": ""
+}
+
+=============================================================================
+Valores de JavaScript
+
+La sintaxis de JavaScript define dos tipos de valores: valores fijos y valores variables.
+
+Los valores fijos se llaman literales. Los valores variables se llaman variables.
+
+Literales JavaScript
+
+Las reglas más importantes para escribir valores fijos son:
+
+Los números se escriben con o sin decimales:
+
+========================================================================
+Variables de JavaScript
+
+En un lenguaje de programación, las variables se utilizan para almacenar valores de datos.
+
+JavaScript usa la palabra clave var para declarar variables.
+
+Se utiliza un signo igual para asignar valores a las variables.
+
+En este ejemplo, x se define como una variable. Entonces, a x se le asigna (dado) el valor 6:
+
+=======================================================================
+
+Operadores JavaScript
+
+JavaScript utiliza operadores aritméticos (+ - * /) para calcular valores:
+
+JavaScript usa un operador de asignación (=) para asignar valores a las variables:
+
+
+=========================================================================
+
+Expresiones JavaScript
+
+Una expresión es una combinación de valores, variables y operadores, que se calcula en un valor.
+
+El cálculo se llama evaluación.
+
+Por ejemplo, 5 * 10 evalúa a 50:
+
+========================================================================
+
+Palabras clave de JavaScript
+
+Las palabras clave de JavaScript se utilizan para identificar acciones a realizar.
+
+La palabra clave var le dice al navegador que cree variables:
+
+========================================================================
+
+Comentarios de JavaScript
+
+No todas las declaraciones de JavaScript se 'ejecutan'.
+
+El código después de barras dobles // o entre / * y * / se trata como un comentario.
+
+Los comentarios se ignoran y no se ejecutarán:
+
+========================================================================
+
+Identificadores de JavaScript
+
+Los identificadores son nombres.
+
+En JavaScript, los identificadores se usan para nombrar variables (y palabras clave, funciones y etiquetas).
+
+Las reglas para los nombres legales son muy similares en la mayoría de los lenguajes de programación.
+
+En JavaScript, el primer carácter debe ser una letra, un guión bajo (_) o un signo de dólar ($).
+
+Los caracteres posteriores pueden ser letras, dígitos, guiones bajos o signos de dólar.
+
+=======================================================================
+
+JavaScript distingue mayúsculas de minúsculas
+
+Todos los identificadores de JavaScript distinguen entre mayúsculas y minúsculas.
+
+Las variables apellido y apellido son dos variables diferentes:
+
+
+
+JavaScript no interpreta VAR o Var como la palabra clave var.
+Funda JavaScript y Camel
+
+Históricamente, los programadores han utilizado diferentes formas de unir varias palabras en un nombre de variable:
+
+Guiones:
+
+nombre, apellido, tarjeta maestra, interurbano.
+
+
+Valores de JavaScript
+La sintaxis de JavaScript define dos tipos de valores: valores fijos y valores variables.
+
+Los valores fijos se llaman literales. Los valores variables se llaman variables.
+
+Literales JavaScript
+Las reglas más importantes para escribir valores fijos son:
+
+Los números se escriben con o sin decimales:
