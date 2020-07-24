@@ -1,1 +1,221 @@
-006-Comentarios-de-JavaScript.txt
+https://jsdoc.app
+
+Etiquetas de bloque
+
+
+@abstract (sinónimos: @virtual)
+Este miembro debe ser implementado (o anulado) por el heredero.
+
+@acceso
+Especifique el nivel de acceso de este miembro (privado, paquete privado, público o protegido).
+
+@alias
+Trate a un miembro como si tuviera un nombre diferente.
+
+@async
+Indica que una función es asíncrona.
+
+@augments (sinónimos: @extends)
+Indique que un símbolo hereda de un símbolo padre y se agrega a él.
+
+@autor
+Identificar al autor de un artículo.
+
+@borrows
+Este objeto usa algo de otro objeto.
+
+@llamar de vuelta
+Documentar una función de devolución de llamada.
+
+@class (sinónimos: @constructor)
+Esta función está destinada a llamarse con la palabra clave 'nueva'.
+
+@classdesc
+Usa el siguiente texto para describir a toda la clase.
+
+@constant (sinónimos: 
+@const)
+Documentar un objeto como una constante.
+
+@constructs
+Este miembro de la función será el constructor de la clase anterior.
+
+@derechos de autor
+Documentar cierta información de copyright.
+
+@default (sinónimos: 
+@defaultvalue)
+Documentar el valor predeterminado.
+
+@obsoleto
+Documente que esta ya no es la forma preferida.
+
+@description (sinónimos: 
+@desc)
+Describe un símbolo.
+
+@enum
+Documentar una colección de propiedades relacionadas.
+
+@evento
+Documentar un evento.
+
+@ejemplo
+Proporcione un ejemplo de cómo usar un artículo documentado.
+
+@exports
+Identifique el miembro que exporta un módulo JavaScript.
+
+@external (sinónimos: 
+@host)
+Identifica una clase externa, espacio de nombres o módulo.
+
+@file (sinónimos: @fileoverview,  @overview)
+Describe un archivo.
+
+@fires (sinónimos: @emits)
+Describa los eventos que puede desencadenar este método.
+
+@function (sinónimos: @func, @method)
+Describe una función o método.
+
+@generador
+Indique que una función es una función generadora.
+
+@global
+Documentar un objeto global.
+
+@hideconstructor
+Indica que el constructor no debe mostrarse.
+
+@ignorar
+Omita un símbolo de la documentación.
+
+@implementos
+Este símbolo implementa una interfaz.
+
+@inheritdoc
+Indique que un símbolo debe heredar la documentación de su padre.
+
+@ejemplo
+Documentar un miembro de instancia.
+
+@interior
+Documentar un objeto interno.
+
+@ejemplo
+Documentar un miembro de instancia.
+
+@interfaz
+Este símbolo es una interfaz que otros pueden implementar.
+
+@tipo
+¿Qué tipo de símbolo es este?
+
+@lends
+Documente las propiedades en un objeto literal como si pertenecieran a un símbolo con un nombre dado.
+
+@licencia
+Identifique la licencia que se aplica a este código.
+
+@listens
+Enumere los eventos que escucha un símbolo.
+
+@member (sinónimos: 
+@var)
+Documentar a un miembro.
+
+@miembro de
+Este símbolo pertenece a un símbolo principal.
+
+@mezclas
+Este objeto se mezcla en todos los miembros de otro objeto.
+
+@mixin
+Documentar un objeto mixin.
+
+@módulo
+Documentar un módulo de JavaScript.
+
+@nombre
+Documentar el nombre de un objeto.
+
+@namespace
+Documentar un objeto de espacio de nombres.
+
+@anular
+Indica que un símbolo anula a su padre.
+
+@paquete
+Este símbolo está destinado a ser un paquete privado.
+
+@param (sinónimos: @arg, @argument)
+Documente el parámetro en una función.
+
+@privado
+Este símbolo está destinado a ser privado.
+
+@property (sinónimos: 
+@prop)
+Documentar una propiedad de un objeto.
+
+@protegido
+Este símbolo está destinado a ser protegido.
+
+@público
+Este símbolo está destinado a ser público.
+
+@solo lectura
+Este símbolo está destinado a ser de solo lectura.
+
+@requires
+Este archivo requiere un módulo JavaScript.
+
+@returns (sinónimos: @return)
+Documentar el valor de retorno de una función.
+
+@ver
+Consulte alguna otra documentación para obtener más información.
+
+@ya que
+¿Cuándo se agregó esta función?
+
+@estático
+Documentar un miembro estático.
+
+@resumen
+Una versión más corta de la descripción completa.
+
+@esta
+¿A qué se refiere la palabra clave 'this' aquí?
+
+@throws (sinónimos: @exception)
+Describa qué errores podrían ser arrojados.
+
+@que hacer
+Documentar las tareas a completar.
+
+@tutorial
+Inserte un enlace a un archivo tutorial incluido.
+
+@tipo
+Documentar el tipo de un objeto.
+
+@typedef
+Documentar un tipo personalizado.
+
+@variación
+Distinguir diferentes objetos con el mismo nombre.
+
+@versión
+Documenta el número de versión de un elemento.
+
+@yields (sinónimos: @yield)
+Documente el valor producido por una función generadora.
+
+Etiquetas en línea
+{@link} (sinónimos: {@linkcode}, { @linkplain})
+Enlace a otro elemento en la documentación.
+
+{@tutorial}
+Enlace a un tutorial.

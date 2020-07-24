@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 23%;
+    height: 50px;
+    float: left;
+}
+div p {
+    width: 30%;
+    padding: 10px 0px;
+    margin: auto;
+}
+body {
+    padding: 50px;
+}

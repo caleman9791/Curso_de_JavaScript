@@ -1,6 +1,6 @@
 // 
 // =================================================
-//  Selecion de elementos 
+//  Seleccione de elementos 
 // -------------------------------------------------
 
 let myImage = document.getElementById('myImage');
@@ -32,12 +32,12 @@ btn2.onclick = function() {
 };
 
 // =================================================
-//  Funcion para cambiar las url 
+//  Función para cambiar las url 
 // -------------------------------------------------
 
 function cambiaImagen(argument) {
 
-    //  Condicional para cambiar l;as url 
+    //  Condicional para cambiar las url 
 
     if (argument == 1) {
 

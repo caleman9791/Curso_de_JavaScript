@@ -1,0 +1,22 @@
+Declaraciones
+
+JavaScript tiene tres tipos de declaraciones variables.
+
+var
+    Declara una variable, opcionalmente inicializándola en un valor.
+dejar
+    Declara una variable local de ámbito de bloque, opcionalmente inicializándola en un valor.
+const
+    Declara una constante denominada bloque de ámbito, de solo lectura.
+
+
+Declarations
+
+JavaScript has three kinds of variable declarations.
+
+var
+    Declares a variable, optionally initializing it to a value.
+let
+    Declares a block-scoped, local variable, optionally initializing it to a value.
+const
+    Declares a block-scoped, read-only named constant. 
