@@ -1,10 +1,223 @@
+
+var x = 5;
+var y = 6;
+var z = x + y;
+
+
+var price1 = 5;
+var price2 = 6;
+var total = price1 + price2;
+
+x = x + 5
+
+
+var pi = 3.14;
+var person = "John Doe";
+var answer = 'Yes I am!';
+
+var carName;
+
+carName = "Volvo";
+
+var carName = "Volvo";
+
+ <p id="demo"></p>
+
+<script>
+var carName = "Volvo";
+document.getElementById("demo").innerHTML = carName;
+</script> 
+
+
+var person = "John Doe", carName = "Volvo", price = 200;
+
+var person = "John Doe",
+carName = "Volvo",
+price = 200;
+
+
+var carName;
+
+var carName = "Volvo";
+var carName;
+
+
+var x = 5 + 2 + 3;
+
+var x = "John" + " " + "Doe"; 
+
+var x = "5" + 2 + 3;
+
+var x = 2 + 3 + "5";
+
+
+var $$$ = "Hello World";
+var $ = 2;
+var $myMoney = 5;
+
+
+var _lastName = "Johnson";
+var _x = 2;
+var _100 = 5;
+
+
+var x = 1;
+
+if (x === 1) {
+  var x = 2;
+
+  console.log(x);
+  // expected output: 2
+}
+
+console.log(x);
+// expected output: 2
+
+
+function x() {
+  y = 1;   // Throws a ReferenceError in strict mode
+  var z = 2;
+}
+
+x();
+
+console.log(y); // logs "1" 
+console.log(z); // Throws a ReferenceError: z is not defined outside x
+
+
+var varname1 [= value1] [, varname2 [= value2] ... [, varnameN [= valueN]]];
+
+
+function x() {
+  y = 1;   // Throws a ReferenceError in strict mode
+  var z = 2;
+}
+
+x();
+
+console.log(y); // logs "1" 
+console.log(z); // Throws a ReferenceError: z is not defined outside x
+
+
+
+
+
+console.log(a);                // Throws a ReferenceError.
+console.log('still going...'); // Never executes.
+
+var a;
+console.log(a);                // logs "undefined" or "" depending on browser.
+console.log('still going...'); // logs "still going...".
+
+
+var a = 1;
+b = 2;
+
+delete this.a; // Throws a TypeError in strict mode. Fails silently otherwise.
+delete this.b;
+
+console.log(a, b); // Throws a ReferenceError. 
+// The 'b' property was deleted and no longer exists.
+
+
+bla = 2;
+var bla;
+// ...
+
+// is implicitly understood as:
+
+var bla;
+bla = 2;
+
+
+function do_something() {
+  console.log(bar); // undefined
+  var bar = 111;
+  console.log(bar); // 111
+}
+
+// is implicitly understood as: 
+function do_something() {
+  var bar;
+  console.log(bar); // undefined
+  bar = 111;
+  console.log(bar); // 111
+}
+
+
+
+var a = 0, b = 0;
+
+Assigning two variables with single string value
+
+var a = 'A';
+var b = a;
+
+// Equivalent to:
+
+var a, b = a = 'A';
+
+
+var x = y, y = 'A';
+console.log(x + y); // undefinedA
+
+
+var x = 0;
+
+function f() {
+  var x = y = 1; // x is declared locally. y is not!
+}
+f();
+
+console.log(x, y); // Throws a ReferenceError in strict mode (y is not defined). 0, 1 otherwise. 
+// In non-strict mode:
+// x is the global one as expected
+// y leaked outside of the function, though!
+
+
+
+var x = 0;  // x is declared within file scope, then assigned a value of 0
+
+console.log(typeof z); // undefined, since z doesn't exist yet
+
+function a() { // when a is called,
+  var y = 2;   // y is declared within scope of function a, then assigned a value of 2
+
+  console.log(x, y);   // 0 2 
+
+  function b() {       // when b is called
+    x = 3;  // assigns 3 to existing file scoped x, doesn't create a new global var
+    y = 4;  // assigns 4 to existing outer y, doesn't create a new global var
+    z = 5;  // creates a new global variable z and assigns a value of 5. 
+  }         // (Throws a ReferenceError in strict mode.)
+
+  b();     // calling b creates z as a global variable
+  console.log(x, y, z);  // 3 4 5
+}
+
+a();                   // calling a also calls b
+console.log(x, z);     // 3 5
+console.log(typeof y); // undefined as y is local to function a
+
+
+
+
+
+
+
+
+
+
+
+
+
 Declaraciones
 
 JavaScript tiene tres tipos de declaraciones variables.
 
 var
     Declara una variable, opcionalmente inicializándola en un valor.
-dejar
+let
     Declara una variable local de ámbito de bloque, opcionalmente inicializándola en un valor.
 const
     Declara una constante denominada bloque de ámbito, de solo lectura.
@@ -20,3 +233,133 @@ let
     Declares a block-scoped, local variable, optionally initializing it to a value.
 const
     Declares a block-scoped, read-only named constant. 
+
+    Hex
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0A
+0B
+0C
+0D
+0E
+0F
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+1A
+1B
+1C
+1D
+1E
+1F
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+27 
+28 
+29 
+2A 
+2B 
+2C 
+2D 
+2E 
+2F 
+30 
+31 
+32 
+33 
+34 
+35 
+36 
+37 
+38 
+39 
+3A 
+3B 
+3C 
+3D 
+3E 
+3F 
+40 
+41 
+42 
+43 
+44 
+45 
+46 
+47 
+48 
+49 
+4A 
+4B 
+4C 
+4D 
+4E 
+4F 
+50 
+51 
+52 
+53 
+54 
+55 
+56 
+57 
+58 
+59 
+5A 
+5B 
+5C 
+5D 
+5E 
+5F 
+60 
+61 
+62 
+63 
+64 
+65 
+66 
+67 
+68 
+69 
+6A 
+6B 
+6C 
+6D 
+6E 
+6F 
+70 
+71 
+72 
+73 
+74 
+75 
+76 
+77 
+78 
+79 
+7A 
+7B 
+7C 
+7D 
+7E 
+7F 
