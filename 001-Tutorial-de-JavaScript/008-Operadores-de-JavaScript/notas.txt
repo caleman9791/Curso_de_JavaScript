@@ -1,1 +1,245 @@
-notas.txt
+
+JavaScript Math Reference
+Math Object
+
+The Math object allows you to perform mathematical tasks.
+
+Math is not a constructor. All properties/methods of Math can be called by using Math as an object, without creating it.
+Syntax
+var x = Math.PI;            // Returns PI
+var y = Math.sqrt(16);      // Returns the square root of 16
+
+For a tutorial about the Math object, read our JavaScript Math Tutorial.
+Math Object Properties
+Property 		Description
+E 						Returns Euler's number (approx. 2.718)
+LN2 					Returns the natural logarithm of 2 (approx. 0.693)
+LN10 					Returns the natural logarithm of 10 (approx. 2.302)
+LOG2E 					Returns the base-2 logarithm of E (approx. 1.442)
+LOG10E 					Returns the base-10 logarithm of E (approx. 0.434)
+PI 						Returns PI (approx. 3.14)
+SQRT1_2 				Returns the square root of 1/2 (approx. 0.707)
+SQRT2 					Returns the square root of 2 (approx. 1.414)
+
+===================================================================
+
+Math Object Methods
+
+Method 			Description
+abs(x) 					Returns the absolute value of x
+
+acos(x) 				Returns the arccosine of x, in radians
+
+acosh(x) 				Returns the hyperbolic arccosine of x
+
+asin(x) 				Returns the arcsine of x, in radians
+
+asinh(x) 				Returns the hyperbolic arcsine of x
+
+atan(x) 				Returns the arctangent of x as a numeric value between -PI/2 and PI/2 radians
+
+atan2(y, x) 			Returns the arctangent of the quotient of its arguments
+
+atanh(x) 				Returns the hyperbolic arctangent of x
+
+cbrt(x) 				Returns the cubic root of x
+
+ceil(x) 				Returns x, rounded upwards to the nearest integer
+
+cos(x) 					Returns the cosine of x (x is in radians)
+
+cosh(x) 				Returns the hyperbolic cosine of x
+
+exp(x) 					Returns the value of Ex
+
+floor(x) 				Returns x, rounded downwards to the nearest integer
+
+log(x) 					Returns the natural logarithm (base E) of x
+
+max(x, y, z, ..., n) 	Returns the number with the highest value
+
+min(x, y, z, ..., n) 	Returns the number with the lowest value
+
+pow(x, y) 				Returns the value of x to the power of y
+
+random() 				Returns a random number between 0 and 1
+
+round(x) 				Rounds x to the nearest integer
+
+sin(x) 					Returns the sine of x (x is in radians)
+
+sinh(x) 				Returns the hyperbolic sine of x
+
+sqrt(x) 				Returns the square root of x
+
+tan(x) 					Returns the tangent of an angle
+
+tanh(x) 				Returns the hyperbolic tangent of a number
+
+trunc(x) 				Returns the integer part of a number (x)
+
+
+
+JavaScript / Operators
+
+    !
+    !=
+    !==
+    %
+    %=
+    &
+    &&
+    &=
+    *
+    **
+    *=
+    +
+    +
+    ++
+    +=
+    -
+    -
+    --
+    -=
+    /
+    /=
+    <
+    <<
+    <<=
+    <=
+    =
+    ==
+    ===
+    >
+    >=
+    >>
+    >>=
+    >>>
+    >>>=
+    Arithmetic Operators
+    Array comprehensions
+    Assignment Operators
+    async function
+    await
+    Bitwise Operators
+    class
+    Comma Operator
+    Comparison Operators
+    Conditional Operator
+    delete
+    Destructuring assignment
+    function
+    function*
+    Grouping
+    in
+    instanceof
+    Logical Operators
+    new
+    new.target
+    Object initializer
+    Operator Precedence
+    Pipeline operator
+    Property Accessors
+    Spread syntax
+    super
+    this
+    typeof
+    void
+    yield
+    yield*
+    ^
+    ^=
+    |
+    |=
+    ||
+    ~
+Operadores de Asignación
+Operadores de comparación
+Operadores aritméticos
+Operadores bit a bit
+Operadores logicos
+Operadores de cadena
+Operador condicional (ternario)
+Operador de coma
+Operadores unarios
+Operadores relacionales
+
+var x = 100 + 50;
+
+// var x = a + b;
+
+// var x = (100 + 50) * a;
+
+var x = 5;
+var y = 2;
+var z = x + y;
+
+var x = 5;
+var y = 2;
+var z = x - y;
+
+var x = 5;
+var y = 2;
+var z = x * y;
+
+var x = 5;
+var y = 2;
+var z = x / y;
+
+var x = 5;
+var y = 2;
+var z = x % y;
+
+var x = 5;
+x++;
+var z = x;
+
+var x = 5;
+x--;
+var z = x;
+
+var x = 100 + 50 * 3;
+
+var x = (100 + 50) * 3;
+
+var x = 100 + 50 - 3;
+
+// Compound Assignment operators Name           Shorthand operator      Meaning
+// Assignment                                   x = y                   x = y
+// Addition assignment                          x += y                  x = x + y
+// Subtraction assignment                       x -= y                  x = x - y
+// Multiplication assignment                    x *= y                  x = x * y
+// Division assignment                          x /= y                  x = x / y
+// Remainder assignment                         x %= y                  x = x % y
+// Exponentiation assignment                    x **= y                 x = x ** y
+////////////////////////////////////////////////////////////////////////////////////
+// Left shift assignment                        x <<= y                 x = x << y
+// Right shift assignment                       x >>= y                 x = x >> y
+// Unsigned right shift assignment              x >>>= y                x = x >>> y
+// 00000000000000000000000000000101
+////////////////////////////////////////////////////////////////////////////////////
+// Bitwise AND assignment                       x &= y                  x = x & y
+////////////////////////////////////////////////////////////////////////////////////
+// Bitwise XOR assignment                       x ^= y                  x = x ^ y
+// https://en.wikipedia.org/wiki/Bitwise_operation#XOR
+////////////////////////////////////////////////////////////////////////////////////
+// Bitwise OR assignment                        x |= y                  x = x | y
+// Logical AND assignment                       x &&= y                 x && (x = y)
+// Logical OR assignment                        x ||= y                 x || (x = y)
+// Logical nullish assignment                   x ??= y                 x ?? (x = y)
+
+// https://en.wikipedia.org/wiki/Bitwise_operation#Truth_table_for_all_binary_logical_operators
+
+// https://en.wikipedia.org/wiki/Truth_table
+// https://en.wikipedia.org/wiki/Binary_number
+// https://www.mathsisfun.com/binary-digits.html
+
+// https://www.rapidtables.com/convert/number/decimal-to-binary.html
+
+// 1001012 base2 = [ ( 1 ) × 2^5 ] + [ ( 0 ) × 2^4 ] + [ ( 0 ) × 2^3 ] + [ ( 1 ) × 2^2 ] + [ ( 0 ) × 2^1 ] + [ ( 1 ) × 2^0 ]
+
+// 1001012 = [ 1 × 32 ] + [ 0 × 16 ] + [ 0 × 8 ] + [ 1 × 4 ] + [ 0 × 2 ] + [ 1 × 1 ]
+
+// 1001012 base2 = 3710 base 10
+
+// https://www.electrical4u.com/truth-table/
