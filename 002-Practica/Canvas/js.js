@@ -359,6 +359,28 @@ function arc(argument) {
     ctx.arc(100, 75, 50, 0, 2 * Math.PI);
     ctx.stroke();
 }
+
+function arcTo(argument) {
+    let c = document.getElementById("myCanvas31");
+    let ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.moveTo(20, 20); // Create a starting point
+    ctx.lineTo(100, 20); // Create a horizontal line
+    // https://en.wikipedia.org/wiki/Tangent
+    // https://en.wikipedia.org/wiki/Trigonometric_functions#tan    
+    ctx.arcTo(150, 20, 150, 70, 50); // Create an arc
+    ctx.lineTo(150, 120); // Continue with vertical line
+    ctx.stroke();
+}
+
+function isPointInPath(argument) {
+    let c = document.getElementById("myCanvas32");
+    let ctx = c.getContext("2d");
+    ctx.rect(20, 20, 150, 100);
+    if (ctx.isPointInPath(20, 50)) {
+        ctx.stroke();
+    };
+}
 // ============================================
 //  Llamada a funciones 
 
@@ -391,4 +413,6 @@ clip2();
 quadraticCurveTo();
 bezierCurveTo();
 arc();
+arcTo();
+isPointInPath();
 // ============================================
