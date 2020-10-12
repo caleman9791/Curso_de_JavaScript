@@ -3,52 +3,30 @@
 //  Seleccione de elementos 
 // -------------------------------------------------
 
-let myImage = document.getElementById('myImage');
-let myImage2 = document.getElementById('myImage2');
-let btn1 = document.getElementById('btn1');
-let btn2 = document.getElementById('btn2');
+dcelet imagen = document.getElementById('imagen');
 
-// =================================================
+let boton = document.getElementById('boton');
 
-// =================================================
-// Estado inicial de las etiquetas img
-// -------------------------------------------------
+boton.style.backgroundColor = "green";
 
-myImage.src = "../../../img/001.png";
-myImage2.src = "../../../img/002.png";
+boton.style.borderRadius = "75px";
 
-// =================================================
+boton.onclick = function() {
 
-// =================================================
-//  Eventos en los Botones 
-// -------------------------------------------------
-
-btn1.onclick = function() {
-    cambiaImagen(1);
+    cambiaImagen(this);
 };
-
-btn2.onclick = function() {
-    cambiaImagen(2);
-};
-
-// =================================================
-//  Función para cambiar las url 
-// -------------------------------------------------
 
 function cambiaImagen(argument) {
 
-    //  Condicional para cambiar las url 
+    console.log(argument);
 
-    if (argument == 1) {
+    if (argument.style.backgroundColor == "red") {
+        argument.style.backgroundColor = "green";
 
-        myImage.src = "../../../img/001.png";
-        myImage2.src = "../../../img/002.png";
+        imagen.src = "img/pic_bulboff.gif";
+    } else if (argument.style.backgroundColor == "green") {
 
-    } else if (argument == 2) {
-
-        myImage.src = "../../../img/002.png";
-        myImage2.src = "../../../img/001.png";
+        argument.style.backgroundColor = "red";
+        imagen.src = "img/pic_bulbon.gif";
     }
-
-    // console.log('ok ' + argument);
 }

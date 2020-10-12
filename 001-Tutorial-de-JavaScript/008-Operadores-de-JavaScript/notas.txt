@@ -243,3 +243,4 @@ var x = 100 + 50 - 3;
 // 1001012 base2 = 3710 base 10
 
 // https://www.electrical4u.com/truth-table/
+
