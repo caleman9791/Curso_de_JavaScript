@@ -381,6 +381,83 @@ function isPointInPath(argument) {
         ctx.stroke();
     };
 }
+
+function scale(argument) {
+    let c = document.getElementById("myCanvas33");
+    let ctx = c.getContext("2d");
+    ctx.strokeRect(5, 5, 25, 15);
+    ctx.scale(1.7, 1.7);
+    ctx.strokeRect(5, 5, 25, 15);
+    ctx.scale(1.7, 1.7);
+    ctx.strokeRect(5, 5, 25, 15);
+    ctx.scale(1.7, 1.7);
+    ctx.strokeRect(5, 5, 25, 15);
+}
+
+function rotate(argument) {
+    let c = document.getElementById("myCanvas34");
+    let ctx = c.getContext("2d");
+    ctx.rotate(25 * Math.PI / 180);
+    ctx.fillRect(50, 20, 100, 50);
+    console.log(25 * Math.PI / 180);
+}
+
+function translate(argument) {
+    let c = document.getElementById("myCanvas35");
+    let ctx = c.getContext("2d");
+    ctx.fillRect(10, 10, 100, 50);
+    ctx.translate(70, 70);
+    ctx.fillRect(10, 10, 100, 50);
+}
+
+function transform(argument) {
+    let c = document.getElementById("myCanvas36");
+    let ctx = c.getContext("2d");
+
+    ctx.fillStyle = "yellow";
+    ctx.fillRect(0, 0, 250, 100)
+
+    ctx.transform(1, 0.5, -0.5, 1, 30, 10);
+    ctx.fillStyle = "red";
+    ctx.fillRect(0, 0, 250, 100);
+
+    ctx.transform(1, 0.5, -0.5, 1, 30, 10);
+    ctx.fillStyle = "blue";
+    ctx.fillRect(0, 0, 250, 100);
+}
+
+function setTransform(argument) {
+    let c = document.getElementById("myCanvas37");
+    let ctx = c.getContext("2d");
+
+    ctx.fillStyle = "yellow";
+    ctx.fillRect(0, 0, 250, 100)
+
+    ctx.setTransform(1, 0.5, -0.5, 1, 30, 10);
+    ctx.fillStyle = "red";
+    ctx.fillRect(0, 0, 250, 100);
+
+    ctx.setTransform(1, 0.5, -0.5, 1, 30, 10);
+    ctx.fillStyle = "blue";
+    ctx.fillRect(0, 0, 250, 100);
+}
+
+function font(argument) {
+
+    let fuente =
+        new FontFace('test',
+            'url("CAMPUS PERSONAL USE.ttf")');
+
+    fuente.load().then(function() {
+
+        let c = document.getElementById("myCanvas38");
+        let ctx = c.getContext("2d");
+        ctx.font = "30px test";
+        ctx.fillText("Hello World", 10, 50);
+
+    });
+}
+
 // ============================================
 //  Llamada a funciones 
 
@@ -415,4 +492,10 @@ bezierCurveTo();
 arc();
 arcTo();
 isPointInPath();
+scale();
+rotate();
+translate();
+transform();
+setTransform();
+font();
 // ============================================
