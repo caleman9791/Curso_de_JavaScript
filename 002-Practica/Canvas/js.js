@@ -458,6 +458,102 @@ function font(argument) {
     });
 }
 
+function textAlign(argument) {
+    let c = document.getElementById("myCanvas39");
+    let ctx = c.getContext("2d");
+
+    // Create a red line in position 150
+    ctx.strokeStyle = "red";
+    ctx.moveTo(150, 20);
+    ctx.lineTo(150, 170);
+    ctx.stroke();
+
+    ctx.font = "15px Arial";
+
+    // Show the different textAlign values
+    ctx.textAlign = "start";
+    ctx.fillText("textAlign=start", 150, 60);
+    ctx.textAlign = "end";
+    ctx.fillText("textAlign=end", 150, 80);
+    ctx.textAlign = "left";
+    ctx.fillText("textAlign=left", 150, 100);
+    ctx.textAlign = "center";
+    ctx.fillText("textAlign=center", 150, 120);
+    ctx.textAlign = "right";
+    ctx.fillText("textAlign=right", 150, 140);
+}
+
+function textBaseline(argument) {
+    let c = document.getElementById("myCanvas40");
+    let ctx = c.getContext("2d");
+
+    //Draw a red line at y=100
+    ctx.strokeStyle = "red";
+    ctx.moveTo(5, 100);
+    ctx.lineTo(395, 100);
+    ctx.stroke();
+
+    ctx.font = "20px Arial"
+
+    //Place each word at y=100 with different textBaseline values
+    ctx.textBaseline = "top";
+    ctx.fillText("Top", 5, 100);
+    ctx.textBaseline = "bottom";
+    ctx.fillText("Bottom", 50, 100);
+    ctx.textBaseline = "middle";
+    ctx.fillText("Middle", 120, 100);
+    ctx.textBaseline = "alphabetic";
+    ctx.fillText("Alphabetic", 190, 100);
+    ctx.textBaseline = "hanging";
+    ctx.fillText("Hanging", 290, 100);
+}
+
+function fillText(argument) {
+    let c = document.getElementById("myCanvas41");
+    let ctx = c.getContext("2d");
+
+    ctx.font = "20px Georgia";
+    ctx.fillText("Hello World!", 10, 50);
+
+    ctx.font = "30px Verdana";
+    // Create gradient
+    var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+    gradient.addColorStop("0", "magenta");
+    gradient.addColorStop("0.5", "blue");
+    gradient.addColorStop("1.0", "red");
+    // Fill with gradient
+    ctx.fillStyle = gradient;
+    ctx.fillText("Big smile!", 10, 90);
+}
+
+function strokeText(argument) {
+    let c = document.getElementById("myCanvas42");
+    let ctx = c.getContext("2d");
+
+    ctx.font = "20px Georgia";
+    ctx.strokeText("Hello World!", 10, 50);
+
+    ctx.font = "30px Verdana";
+
+    // Create gradient
+    var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+    gradient.addColorStop("0", "magenta");
+    gradient.addColorStop("0.5", "blue");
+    gradient.addColorStop("1.0", "red");
+
+    // Fill with gradient
+    ctx.strokeStyle = gradient;
+    ctx.strokeText("Big smile!", 10, 90);
+}
+
+function measureText(argument) {
+    let c = document.getElementById("myCanvas43");
+    let ctx = c.getContext("2d");
+    ctx.font = "30px Arial";
+    let txt = "Hello World"
+    ctx.fillText("width:" + ctx.measureText(txt).width, 10, 50);
+    ctx.fillText(txt, 10, 100);
+}
 // ============================================
 //  Llamada a funciones 
 
@@ -498,4 +594,9 @@ translate();
 transform();
 setTransform();
 font();
+textAlign();
+textBaseline();
+fillText();
+strokeText();
+measureText();
 // ============================================
