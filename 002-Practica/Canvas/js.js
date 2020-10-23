@@ -245,7 +245,7 @@ function stroke(argument) {
     let ctx = c.getContext("2d");
     ctx.beginPath();
     ctx.moveTo(20, 20);
-    ctx.moveTo(10, 50);
+    ctx.moveTo(50, 50);
     ctx.lineTo(20, 100);
     ctx.lineTo(150, 10);
 
@@ -399,7 +399,7 @@ function rotate(argument) {
     let ctx = c.getContext("2d");
     ctx.rotate(25 * Math.PI / 180);
     ctx.fillRect(50, 20, 100, 50);
-    console.log(25 * Math.PI / 180);
+    // console.log(25 * Math.PI / 180);
 }
 
 function translate(argument) {
@@ -554,6 +554,223 @@ function measureText(argument) {
     ctx.fillText("width:" + ctx.measureText(txt).width, 10, 50);
     ctx.fillText(txt, 10, 100);
 }
+
+function drawImage2(argument) {
+    let v = document.getElementById("video1");
+    let c = document.getElementById("myCanvas44");
+    let ctx = c.getContext("2d");
+    let i;
+
+    v.addEventListener(
+        "play",
+        function() {
+            i = window.setInterval(function() {
+                    ctx.drawImage(v, 5, 5, 300, 300)
+                },
+                20);
+        },
+        false);
+
+    v.addEventListener(
+        "pause",
+        function() {
+            window.clearInterval(i);
+        }, false);
+
+    v.addEventListener(
+        "ended",
+        function() {
+            clearInterval(i);
+        }, false);
+}
+
+function drawImage1(argument) {
+    window.onload =
+        function() {
+            let c = document.getElementById("myCanvas45");
+            let ctx = c.getContext("2d");
+            let img = document.getElementById("scream");
+            let sx = 90,
+                sy = 130,
+                swidth = 50,
+                sheight = 60,
+                //  posición de la imagen
+                x = 0,
+                y = 0,
+                // Tamaño de la imagen en el lienzo 
+                width = 200,
+                height = 200;
+            ctx.drawImage(img, sx, sy, swidth, sheight, x, y, width, height);
+        }
+}
+
+function width(argument) {
+
+    let c = document.getElementById("myCanvas46");
+
+    let ctx = c.getContext("2d");
+
+    let imgData = ctx.createImageData(100, 100);
+
+    document
+        .getElementById(
+            'parr46'
+        )
+        .innerHTML =
+        "Width of imgData is: " +
+        imgData
+        .width;
+    // alert("");
+
+    let i;
+    for (i = 0; i < imgData.data.length; i += 4) {
+        imgData.data[i + 0] = 255;
+        imgData.data[i + 1] = 0;
+        imgData.data[i + 2] = 0;
+        imgData.data[i + 3] = 255;
+        // console.log(i);
+    }
+    // console.log(imgData.data.length);
+    // console.log(imgData.data);
+
+    ctx.putImageData(imgData, 10, 10);
+
+}
+
+function height(argument) {
+    let c = document.getElementById("myCanvas47");
+    let ctx = c.getContext("2d");
+    let imgData = ctx.createImageData(100, 100);
+    // alert(" " + imgData.height);
+    document
+        .getElementById(
+            'parr47'
+        )
+        .innerHTML =
+        "Height of imgData is:" +
+        imgData
+        .width;
+    let i;
+    for (i = 0; i < imgData.data.length; i += 4) {
+        imgData.data[i + 0] = 255;
+        imgData.data[i + 1] = 0;
+        imgData.data[i + 2] = 0;
+        imgData.data[i + 3] = 255;
+    }
+
+    ctx.putImageData(imgData, 10, 10);
+}
+
+function data(argument) {
+
+    let c = document.getElementById("myCanvas48");
+    let ctx = c.getContext("2d");
+    let imgData = ctx.createImageData(100, 100);
+
+    let i;
+    for (i = 0; i < imgData.data.length; i += 4) {
+        imgData.data[i + 0] = 100;
+        imgData.data[i + 1] = 0;
+        imgData.data[i + 2] = 0;
+        imgData.data[i + 3] = 255;
+    }
+
+    ctx.putImageData(imgData, 10, 10);
+}
+
+function createImageData(argument) {
+
+    let c = document.getElementById("myCanvas49");
+
+    let ctx = c.getContext("2d");
+
+    let imgData = ctx.createImageData(100, 100);
+
+    let i;
+    for (i = 0; i < imgData.data.length; i += 4) {
+
+        imgData.data[i + 0] = 255;
+        imgData.data[i + 1] = 0;
+        imgData.data[i + 2] = 0;
+        imgData.data[i + 3] = 255;
+    }
+
+    ctx.putImageData(imgData, 10, 10);
+}
+
+function getImageData(argument) {
+
+    document.getElementById("scream50").onload = function() {
+
+        let c = document.getElementById("myCanvas50");
+        let ctx = c.getContext("2d");
+        let img = document.getElementById("scream50");
+        ctx.drawImage(img, 0, 0);
+        let imgData = ctx.getImageData(0, 0, c.width, c.height);
+        // invert colors
+        let i;
+        for (i = 0; i < imgData.data.length; i += 4) {
+
+            imgData.data[i] = 255 - imgData.data[i];
+            imgData.data[i + 1] = 255 - imgData.data[i + 1];
+            imgData.data[i + 2] = 255 - imgData.data[i + 2];
+            imgData.data[i + 3] = 255;
+            // console.log(imgData.data[i]);
+        }
+        // console.log(i / 4);
+        ctx.putImageData(imgData, 0, 0);
+    };
+}
+
+function putImageData(argument) {
+
+    let c = document.getElementById("myCanvas51");
+    let ctx = c.getContext("2d");
+    ctx.fillStyle = "red";
+    ctx.fillRect(10, 10, 50, 50);
+    let btn = document.getElementById('btn51');
+
+    btn.onclick = function() {
+
+        let imgData = ctx.getImageData(10, 10, 50, 50);
+
+        console.log(imgData);
+
+        ctx.putImageData(imgData, 10, 70);
+
+    };
+
+}
+
+function globalAlpha(argument) {
+    let c = document.getElementById("myCanvas52");
+    let ctx = c.getContext("2d");
+    ctx.fillStyle = "red";
+    ctx.fillRect(20, 20, 75, 50);
+
+    //Turn transparency on
+    ctx.globalAlpha = 0.2;
+    ctx.fillStyle = "blue";
+    ctx.fillRect(50, 50, 75, 50);
+    ctx.fillStyle = "green";
+    ctx.fillRect(80, 80, 75, 50);
+}
+
+function globalCompositeOperation(argument) {
+    let c = document.getElementById("myCanvas53");
+    let ctx = c.getContext("2d");
+    ctx.fillStyle = "red";
+    ctx.fillRect(20, 20, 75, 50);
+    ctx.fillStyle = "blue";
+    ctx.globalCompositeOperation = "source-over";
+    ctx.fillRect(50, 50, 75, 50);
+    ctx.fillStyle = "red";
+    ctx.fillRect(150, 20, 75, 50);
+    ctx.fillStyle = "blue";
+    ctx.globalCompositeOperation = "destination-over";
+    ctx.fillRect(180, 50, 75, 50);
+}
+
 // ============================================
 //  Llamada a funciones 
 
@@ -599,4 +816,14 @@ textBaseline();
 fillText();
 strokeText();
 measureText();
+drawImage2();
+drawImage1();
+width();
+height();
+data();
+createImageData();
+getImageData();
+putImageData();
+globalAlpha();
+globalCompositeOperation();
 // ============================================
