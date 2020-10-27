@@ -71,3 +71,5 @@ Asignación lógica AND
 Asignación lógica OR 
 
 Asignación de anulación lógica 
+
+
