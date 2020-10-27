@@ -200,6 +200,18 @@ function AsignacionANDbitabit(argument) {
     // 00000000000000000000000000000001
     // expected output: 1
 }
+// ===========================================================================
+//  
+// Este operador lógico relaciona dos proposiciones para formar una nueva, en
+// la cual la proposición resultante será verdadera solamente cuando el
+// valor de verdad de ambas proposiciones es verdadero. En español, la
+// conjunción copulativa se presenta con los términos gramaticales: “y”, “pero”,
+// “mas”, y signos de puntuación como: la coma, el punto, y el punto y coma.
+
+// -------------------------------------
+// Matematicas para bachillerato  pag 46
+// -------------------------------------
+// ===========================================================================
 
 // https://es.wikipedia.org/wiki/Conectiva_l%C3%B3gica
 // https://es.wikipedia.org/wiki/Tabla_de_verdad
@@ -217,6 +229,8 @@ function AsignacionXORbitabit(argument) {
     // expected output: 6
 }
 
+// https://www.pcmag.com/encyclopedia/term/xor
+
 function AsignacionORbitabit(argument) {
     // https://devdocs.io/javascript/operators/assignment_operators#Bitwise_OR_assignment
     let a = 5; // 00000000000000000000000000000101
@@ -225,6 +239,7 @@ function AsignacionORbitabit(argument) {
     console.log(a); // 00000000000000000000000000000111
     // expected output: 7
 }
+// https://www.pcmag.com/encyclopedia/term/or
 
 // https://espaciotecnologico.co/electronica-digital-logica-digital/
 

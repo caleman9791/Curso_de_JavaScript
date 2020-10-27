@@ -1,6 +1,6 @@
     .botones img {
-        height: 75px;
-        width: 75px;
+        height: 100px;
+        width: 100px;
     }
     .bombilla {
         position: absolute;
@@ -12,11 +12,61 @@
         margin-left: 100px;
         background-color: #e1ffff;
     }
-    .botones {
-        position: absolute;
-        left: 210px;
-        top: 300px;
-    }
+    .botones {}
     .botones img {
         border-radius: 50px;
+    }
+    .botones img:nth-child(1) {
+        position: absolute;
+        left: 670px;
+        top: 160px;
+    }
+    .botones img:nth-child(2) {
+        position: absolute;
+        left: 830px;
+        top: 160px;
+    }
+    .botones img:nth-child(3) {
+        position: absolute;
+        left: 400px;
+        top: 300px;
+        display: none;
+    }
+    .botones img:nth-child(4) {
+        position: absolute;
+        left: 500px;
+        top: 300px;
+        display: none;
+    }
+    .botones img:nth-child(5) {
+        position: absolute;
+        left: 600px;
+        top: 300px;
+        display: none;
+    }
+    .botones img:nth-child(6) {
+        position: absolute;
+        left: 700px;
+        top: 300px;
+        display: none;
+    }
+    .botones img:nth-child(7) {
+        position: absolute;
+        left: 800px;
+        top: 300px;
+        display: none;
+    }
+    .botones img:nth-child(8) {
+        position: absolute;
+        left: 900px;
+        top: 300px;
+        display: none;
+    }
+    #bateria {
+        position: absolute;
+        left: 350px;
+        top: 310px;
+        height: 75px;
+        width: 200px;
+        border-radius: 100px;
     }

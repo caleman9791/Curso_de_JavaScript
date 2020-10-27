@@ -10,4 +10,10 @@
 
 // Asignaciondeexponenciacion();
 
-Asignaciondeturnoizquierdo();
+// Asignaciondeturnoizquierdo();
+
+// AsignaciónlógicaAND();
+
+// AsignacionlogicaOR();
+
+Asignacionlogicanula();
