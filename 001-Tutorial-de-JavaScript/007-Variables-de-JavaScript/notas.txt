@@ -1,3 +1,6 @@
+var variable = "Prueba";
+console.log(`Prueba de ${variable}`);
+
 
 var x = 5;
 var y = 6;
