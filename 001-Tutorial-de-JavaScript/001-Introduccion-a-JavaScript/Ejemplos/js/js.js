@@ -3,7 +3,7 @@
 //  Seleccione de elementos 
 // -------------------------------------------------
 
-dcelet imagen = document.getElementById('imagen');
+let select_img = document.getElementById('imagen');
 
 let boton = document.getElementById('boton');
 
