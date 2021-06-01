@@ -1,0 +1,31 @@
+<!--  Estructura básica de HTML5 -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>
+      Documento
+    </title>
+  </head>
+  <body>
+    <p>
+      Ingrese un número y haga clic en Aceptar:
+    </p>
+    <!--  Elemento de entrada de números  y sus atributos de validación  -->
+    <input id="entrada_numero" max="300" min="100" required="" type="number"/>
+    <!-- Elemento de entrada botón -->
+    <button id="btn_aceptar">
+      Aceptar
+    </button>
+    <p>
+      Si el número es menor que 100 o mayor que 300, se mostrará un mensaje de error.
+    </p>
+    <!-- Elemento  de párrafo para desplegar el mensaje devuelto por el condicional en JavaScriprt  -->
+    <p id="desplegar">
+    </p>
+    <!-- Enlace a al fichero que contiene instrucciones de JavaScriprt  -->
+    <script src="js.js" type="text/javascript">
+    </script>
+  </body>
+</html>
