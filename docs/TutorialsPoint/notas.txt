@@ -1,0 +1,87 @@
+https://www.tutorialspoint.com/javascript/index.htm
+
+Tutorial básico de JavaScript
+Javascript - Inicio
+Javascript: descripción general
+Javascript - Sintaxis
+Javascript: habilitación
+Javascript: ubicación
+Javascript - Variables
+Javascript - Operadores
+Javascript - Si ... Else
+Javascript - Cambiar caso
+Javascript: bucle while
+Javascript - For Loop
+Javascript - Para ... en
+Javascript - Control de bucle
+Javascript - Funciones
+Javascript - Eventos
+Javascript - Cookies
+Javascript: redireccionamiento de página
+Javascript: cuadros de diálogo
+Javascript: palabra clave nula
+Javascript - Impresión de páginas
+
+Objetos JavaScript
+Javascript - Objetos
+Javascript - Número
+Javascript: booleano
+Javascript: cadenas
+Javascript: matrices
+Javascript - Fecha
+Javascript - Matemáticas
+Javascript - RegExp
+Javascript - HTML DOM
+
+JavaScript avanzado
+Javascript: manejo de errores
+Javascript - Validaciones
+Javascript - Animación
+Javascript - Multimedia
+Javascript: depuración
+Javascript - Mapa de imagen
+Javascript: navegadores
+
+=======================================================================
+
+Javascript Basics Tutorial
+Javascript - Home
+Javascript - Overview
+Javascript - Syntax
+Javascript - Enabling
+Javascript - Placement
+Javascript - Variables
+Javascript - Operators
+Javascript - If...Else
+Javascript - Switch Case
+Javascript - While Loop
+Javascript - For Loop
+Javascript - For...in
+Javascript - Loop Control
+Javascript - Functions
+Javascript - Events
+Javascript - Cookies
+Javascript - Page Redirect
+Javascript - Dialog Boxes
+Javascript - Void Keyword
+Javascript - Page Printing
+
+JavaScript Objects
+Javascript - Objects
+Javascript - Number
+Javascript - Boolean
+Javascript - Strings
+Javascript - Arrays
+Javascript - Date
+Javascript - Math
+Javascript - RegExp
+Javascript - HTML DOM
+
+JavaScript Advanced
+Javascript - Error Handling
+Javascript - Validations
+Javascript - Animation
+Javascript - Multimedia
+Javascript - Debugging
+Javascript - Image Map
+Javascript - Browsers

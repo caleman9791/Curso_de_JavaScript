@@ -1,0 +1,22 @@
+// let btninput = document.createElement("input");
+// let btnbutton = document.createElement("button");
+// let atttype = document.createAttribute("type");
+
+// atttype.value = "button";
+// btninput.setAttributeNode(atttype);
+// btninput.value = "input creado";
+// btnbutton.innerHTML = "Boton creado";
+
+// document.body.appendChild(btnbutton);
+// document.body.appendChild(btninput);
+
+// let botones = document.querySelectorAll("input");
+
+// for (let i = 0; i < botones.length; i++) {
+//     console.log(botones[i]);
+// }
+
+// =======================================================
+// document.getElementById("demo").innerHTML = 5 + 6;
+
+// document.write(5 + 6);

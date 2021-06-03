@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>
+      Document
+    </title>
+  </head>
+  <body>
+    <div class="">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="400" src="https://www.youtube.com/embed/lc55H9QsEMQ" title="YouTube video player" width="100%">
+      </iframe>
+    </div>
+    <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
+    <div class="w3-container">
+      <button class="print w3-button w3-light-green w3-margin">
+        Print
+      </button>
+      <button class="nueva_ventana w3-button w3-light-green w3-margin">
+        New window
+      </button>
+      <button class="alerta w3-button w3-light-green w3-margin">
+        Alerta
+      </button>
+      <button class="escribe_documento w3-button w3-light-green w3-margin" type="button">
+        document.write
+      </button>
+      <script type="text/javascript">
+        let print = document.querySelector(".print");
+          let nueva_ventana = document.querySelector(".nueva_ventana");
+          let alerta = document.querySelector(".alerta");
+          let escribe_documento = document.querySelector(".escribe_documento");
+
+          print.addEventListener("click", function(argument) {
+          window.print();
+          });
+
+          nueva_ventana.addEventListener("click", function(argument) {
+          myFunction();
+          });
+
+          alerta.addEventListener("click", function(argument) {
+          window.alert("ESto es una alerta");
+          });
+
+          escribe_documento.addEventListener("click", function(argument) {
+          document.write("Escribieendoe en el documento");
+          });
+
+          // console.log(5 + 6);
+          // window.print()
+
+          function myFunction() {
+
+          let myWindow = window.open("", "MsgWindow", "width=500,height=300");
+          // myWindow.document.write("<p> Escribimos un parafo dentro de una ventana nueva </p>");
+
+          console.log("hola");
+
+          console.log(myWindow);
+          let btninput = document.createElement("input");
+          let btnbutton = document.createElement("button");
+          let atttype = document.createAttribute("type");
+
+          atttype.value = "button";
+          btninput.setAttributeNode(atttype);
+          btninput.value = "input creado";
+          btnbutton.innerHTML = "Boton creado";
+
+          myWindow.document.body.appendChild(btnbutton);
+          myWindow.document.body.appendChild(btninput);
+
+          }
+      </script>
+    </div>
+  </body>
+</html>
