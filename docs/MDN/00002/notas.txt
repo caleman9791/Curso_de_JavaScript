@@ -1,0 +1,668 @@
+Instalación de software básico
+
+Cuando se trata de herramientas para construir un sitio web, hay mucho que elegir. Si está comenzando, puede estar confundido por la matriz de editores de código, marcos y herramientas de prueba que hay. Al instalar el software básico, le mostraremos paso a paso cómo instalar el software que necesita para comenzar un desarrollo web básico.
+
+¿Cómo se veía su sitio web?
+
+Antes de comenzar a escribir el código para su sitio web, debe planificarlo primero. ¿Qué información estás mostrando? ¿Qué fuentes y colores estás usando? ¿Cómo se veía su sitio web? Describimos un método simple que puede seguir para planificar el contenido y el diseño de su sitio.
+Tratar con archivos
+
+Un sitio web consta de muchos archivos: contenido de texto, código, hojas de estilo, contenido de medios, etc. Cuando está construyendo un sitio web, debe reunir estos archivos en una estructura sensible y asegurarse de que puedan hablar entre sí. Tratar con los archivos explica cómo configurar una estructura de archivos sensible para su sitio web y en qué problemas debe conocer.
+
+
+Conceptos básicos de HTML
+
+El lenguaje de marcado de hipertexto (HTML) es el código que utiliza para estructurar su contenido web y darle un significado y un propósito. Por ejemplo, ¿es mi contenido un conjunto de párrafos o una lista de puntos de bala? ¿Tengo imágenes insertadas en mi página? ¿Tengo una tabla de datos? Sin abrumadoras, los conceptos básicos de HTML proporcionan suficiente información para que esté familiarizado con HTML.
+
+
+Conceptos básicos de CSS
+
+Las hojas de estilos de cascada (CSS) son el código que utiliza para diseñar su sitio web. Por ejemplo, ¿quieres que el texto sea negro o rojo? ¿Dónde debe dibujarse el contenido en la pantalla? ¿Qué imágenes y colores de fondo deben usarse para decorar su sitio web? Los conceptos básicos de CSS lo llevan a través de lo que necesita para empezar.
+
+
+Conceptos básicos de JavaScript
+
+JavaScript es el lenguaje de programación que usa para agregar funciones interactivas a su sitio web. Algunos ejemplos podrían ser juegos, las cosas que ocurren cuando se presionan los botones o se ingresan datos en formas, efectos de estilo dinámico, animación y mucho más. JavaScript es básico para brindarle una idea de lo que es posible con este emocionante idioma, y cómo empezar.
+
+
+Publicando su sitio web
+
+Una vez que haya terminado de escribir el código y organizar los archivos que conforman su sitio web, debe ponerlo todo en línea, para que la gente pueda encontrarla. La publicación de su código de muestra describe cómo obtener su código de muestra simple en línea con un esfuerzo mínimo.
+
+
+Cómo funciona la web
+
+Cuando accede a su sitio web favorito, muchas cosas complicadas ocurren en el fondo que no puede saber. Cómo funciona la web describe lo que sucede cuando ve una página web en su computadora.
+
+
+====================================================================================================================
+
+
+Instalación de software básico
+
+En la entrada anterior hablamos sobre los programas que debemos instalar para poder trabajar con aplicaciones web.  Entonces, ahora debo explicar que conocimientos necesitamos para comenzar a crear nuestra interfaz  de usuario.  Como ya saben la creación de aplicaciones web es muy semejante a la construcción de un edificio. Para esto necesitamos materiales, personal capacitado, entre otros recursos, como tiempo disponible para la planificación.  Encontrarás muchas personas alegando que  usar  elementos prefabricados en  todo  tu proyecto para entregar rápido y cobrar es la solución. Bueno pues  te comento que no siempre es así. Puede que en algunos casos necesites hacer las cosas rápidas y escribir tu aplicación lo antes posible sin comprender su funcionamiento dejando esto en manos de terceros. Tal vez  puedas generar más ingresos de esta forma, pero tal vez no puedas cubrir las necesidades personalizadas que necesita una empresa.  Antes de ser programador soy barbero de profesión y esto me ha ayudado a comprender,  que lo que se necesita es servicio personalizado. 
+
+
+
+Fallback UK Female
+Welsh Male
+Swahili Male
+Serbo-Croatian Male
+Serbian Male
+Montenegrin Male
+Moldavian Female
+Macedonian Male
+Latvian Male
+Icelandic Female
+Esperanto Male
+Croatian Male
+Catalan Male
+Bosnian Male
+Albanian Male
+Afrikaans Male
+Vietnamese Male
+Vietnamese Female
+Ukrainian Female
+Turkish Male
+Turkish Female
+Thai Male
+Thai Female
+Tamil Male
+Tamil Female
+Swedish Male
+Swedish Female
+Spanish Latin American Male
+Spanish Latin American Female
+Spanish Female
+Slovak Female
+Sinhala
+Russian Female
+Romanian Female
+Portuguese Male
+Portuguese Female
+Polish Male
+Polish Female
+Norwegian Male
+Norwegian Female
+Nepali
+Latin Male
+Korean Male
+Korean Female
+Japanese Male
+Japanese Female
+Italian Male
+Italian Female
+Indonesian Male
+Indonesian Female
+Hungarian Female
+Hindi Male
+Hindi Female
+Greek Female
+French Canadian Male
+French Canadian Female
+French Male
+French Female
+Finnish Female
+Filipino Female
+Estonian Male
+Dutch Male
+Dutch Female
+Deutsch Male
+Deutsch Female
+Danish Female
+Czech Female
+Chinese Taiwan Male
+Chinese Taiwan Female
+Chinese (Hong Kong) Male
+Chinese (Hong Kong) Female
+Chinese Male
+Chinese Female
+Brazilian Portuguese Female
+Bangla India Male
+Bangla India Female
+Bangla Bangladesh Male
+Bangla Bangladesh Female
+Australian Male
+Australian Female
+Armenian Male
+Arabic Female
+Arabic Male
+US English Male-+
+US English Female
+UK English Male
+UK English Female
+
+
+Notas importantes:
+
+Roles de la programación o campos solo son conceptos de estudio 
+
+Engineering Manager
+
+Backend Developer
+
+FrontEnd Developer
+
+Full-Stack Developer
+
+Mobile Developer
+
+Data/Business Analyst
+
+Designer
+
+DevOps Specialist
+
+QA/Test Developer
+
+Game Developer
+
+Data Scientist
+
+
+            <p>
+               Ahora veamos ejemplos de componentes y sus colores, tamaños, formas y objetivos de los mismos.
+            </p>
+            <div class="w3-container">
+               <p>
+                  Observa la distribución de espacio en estas franjas. Así podemos acomodar elementos dentro de una pantalla y configurarla para que se vea hermosa desde cualquier dispositivo desde teléfonos a televisores inteligentes, computadoras proyectores y mucho más.
+               </p>
+            </div>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:50%">
+                  <p>
+                     50%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:50%">
+                  <p>
+                     50%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:33.33%">
+                  <p>
+                     33%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:33.33%">
+                  <p>
+                     33%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:33.33%">
+                  <p>
+                     33%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:25%">
+                  <p>
+                     25%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:25%">
+                  <p>
+                     25%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:25%">
+                  <p>
+                     25%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:25%">
+                  <p>
+                     25%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:20%">
+                  <p>
+                     20%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:20%">
+                  <p>
+                     20%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:20%">
+                  <p>
+                     20%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:20%">
+                  <p>
+                     20%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:20%">
+                  <p>
+                     20%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:16.66%">
+                  <p>
+                     16%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:16.66%">
+                  <p>
+                     16%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:16.66%">
+                  <p>
+                     16%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:16.66%">
+                  <p>
+                     16%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:16.66%">
+                  <p>
+                     16%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:16.66%">
+                  <p>
+                     16%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:14.28%">
+                  <p>
+                     14%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:14.28%">
+                  <p>
+                     14%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:14.28%">
+                  <p>
+                     14%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:14.28%">
+                  <p>
+                     14%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:14.28%">
+                  <p>
+                     14%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:14.28%">
+                  <p>
+                     14%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:14.28%">
+                  <p>
+                     14%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:12.5%">
+                  <p>
+                     12%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:12.5%">
+                  <p>
+                     30%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:12.5%">
+                  <p>
+                     12%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:12.5%">
+                  <p>
+                     30%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:12.5%">
+                  <p>
+                     12%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:12.5%">
+                  <p>
+                     30%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:12.5%">
+                  <p>
+                     12%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:12.5%">
+                  <p>
+                     30%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:11.11%">
+                  <p>
+                     11%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:11.11%">
+                  <p>
+                     11%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:11.11%">
+                  <p>
+                     11%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:11.11%">
+                  <p>
+                     11%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:11.11%">
+                  <p>
+                     11%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:11.11%">
+                  <p>
+                     11%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:11.11%">
+                  <p>
+                     11%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:11.11%">
+                  <p>
+                     11%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:11.11%">
+                  <p>
+                     11%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:9.09%">
+                  <p>
+                     9%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:9.09%">
+                  <p>
+                     9%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:9.09%">
+                  <p>
+                     9%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:9.09%">
+                  <p>
+                     9%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:9.09%">
+                  <p>
+                     9%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:9.09%">
+                  <p>
+                     9%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:9.09%">
+                  <p>
+                     9%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:9.09%">
+                  <p>
+                     9%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:9.09%">
+                  <p>
+                     9%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:9.09%">
+                  <p>
+                     9%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:8.33%">
+                  <p>
+                     8%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:8.33%">
+                  <p>
+                     8%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:8.33%">
+                  <p>
+                     8%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:8.33%">
+                  <p>
+                     8%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:8.33%">
+                  <p>
+                     8%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:8.33%">
+                  <p>
+                     8%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:8.33%">
+                  <p>
+                     8%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:8.33%">
+                  <p>
+                     8%
+                  </p>
+               </div>
+               <div class="w3-col w3-green w3-container" style="width:8.33%">
+                  <p>
+                     8%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:8.33%">
+                  <p>
+                     8%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:15%">
+                  <p>
+                     15%
+                  </p>
+               </div>
+               <div class="w3-col w3-dark-grey w3-container" style="width:35%">
+                  <p>
+                     35%
+                  </p>
+               </div>
+               <div class="w3-col w3-red w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:30%">
+                  <p>
+                     30%
+                  </p>
+               </div>
+               <div class="w3-col w3-purple w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:15%">
+                  <p>
+                     15%
+                  </p>
+               </div>
+               <div class="w3-col w3-dark-grey w3-container" style="width:35%">
+                  <p>
+                     35%
+                  </p>
+               </div>
+               <div class="w3-col w3-red w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:30%">
+                  <p>
+                     30%
+                  </p>
+               </div>
+               <div class="w3-col w3-purple w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+            </div>
+            <br/>
+            <div class="w3-row">
+               <div class="w3-col w3-green w3-container" style="width:15%">
+                  <p>
+                     15%
+                  </p>
+               </div>
+               <div class="w3-col w3-dark-grey w3-container" style="width:35%">
+                  <p>
+                     35%
+                  </p>
+               </div>
+               <div class="w3-col w3-red w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+               <div class="w3-col w3-blue w3-container" style="width:30%">
+                  <p>
+                     30%
+                  </p>
+               </div>
+               <div class="w3-col w3-purple w3-container" style="width:10%">
+                  <p>
+                     10%
+                  </p>
+               </div>
+            </div>
+            <div class="w3-container w3-tangerine">
+               <p class="w3-xxlarge">
+                  Making the Web Beautiful!
+               </p>
+               <p class="w3-xxxlarge">
+                  Making the Web Beautiful!
+               </p>
+               <p class="w3-jumbo">
+                  Making the Web Beautiful!
+               </p>
+            </div>
+         </div>

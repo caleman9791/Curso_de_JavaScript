@@ -1,0 +1,621 @@
+Glossary of Terms
+
+Learn a new term:
+
+IDL
+    An IDL (Interface Description Language) is a generic language used to specified objects' interfaces apart from any specific programming language.
+
+A
+
+    Abstraction
+    accent
+    Accessibility
+    Accessibility tree
+    Adobe Flash
+    Ajax
+    Algorithm
+    Alignment container
+    Alignment subject
+    Alpha (alpha channel)
+    ALPN
+    API
+    Apple Safari
+    Application Context
+    Argument
+    ARIA
+    ARPA
+    Arpanet
+    Array
+    ASCII
+    Asynchronous
+    ATAG
+    Attribute
+
+B
+
+    Bandwidth
+    Base64
+    Baseline
+    beacon
+    Bézier curve
+    BiDi
+    BigInt
+    Blink
+    Block
+    Block (CSS)
+    Block (scripting)
+    Block cipher mode of operation
+    Boolean
+    Boot2Gecko
+    Bootstrap
+    Bounding Box
+    Breadcrumb
+    Brotli
+    Browser
+    Browsing context
+    buffer
+
+C
+
+    Cache
+    Cacheable
+    CalDAV
+    Call stack
+    Callback function
+    Canonical order
+    Canvas
+    Card sorting
+    CardDAV
+    caret
+    CDN
+    Certificate authority
+    Certified
+    Challenge-response authentication
+    Character
+    Character encoding
+    Character set
+    Chrome
+    CIA
+    Cipher
+    Cipher suite
+    Ciphertext
+    Class
+    Client hints
+    Closure
+    CMS
+    Code splitting
+    Codec
+    Compile
+    Compile time
+    Computer Programming
+    Conditional
+    Constant
+    Constructor
+    Continuous Media
+    Control flow
+    Cookie
+    Copyleft
+    CORS
+    CORS-safelisted request header
+    CORS-safelisted response header
+    Crawler
+    CRLF
+    Cross Axis
+    Cross-site scripting
+    CRUD
+    Cryptanalysis
+    Cryptographic hash function
+    Cryptography
+    CSP
+    CSRF
+    CSS
+    CSS Object Model (CSSOM)
+    CSS pixel
+    CSS preprocessor
+
+D
+
+    Data structure
+    Database
+    Decryption
+    Delta
+    Denial of Service
+    Descriptor (CSS)
+    Deserialization
+    Developer Tools
+    Device pixel
+    DHTML
+    Digest
+    Digital certificate
+    Distributed Denial of Service
+    DMZ
+    DNS
+    Doctype
+    Document directive
+    document environment
+    DOM (Document Object Model)
+    Domain
+    Domain name
+    Domain sharding
+    Dominator
+    DoS attack
+    DTLS (Datagram Transport Layer Security)
+    DTMF (Dual-Tone Multi-Frequency signaling)
+    Dynamic programming language
+    Dynamic typing
+
+E
+
+    ECMA
+    ECMAScript
+    Effective connection type
+    Element
+    Empty element
+    Encapsulation
+    Encryption
+    Endianness
+    Engine
+    Entity
+    Entity header
+    Event
+    Exception
+    EXIF
+    Expando
+
+F
+
+    Fallback alignment
+    Falsy
+    Favicon
+    Fetch directive
+    Fetch metadata request header
+    Firefox OS
+    firewall
+    First contentful paint
+    First CPU idle
+    First input delay
+    First interactive
+    First Meaningful Paint
+    First paint
+    First-class Function
+    Flex
+    Flex Container
+    Flex Item
+    Flexbox
+    Forbidden header name
+    Forbidden response header name
+    Fork
+    Fragmentainer
+    frame rate (FPS)
+    FTP
+    FTU
+    Function
+    Fuzz testing
+
+G
+
+    Garbage collection
+    Gecko
+    General header
+    GIF
+    GIJ
+    Git
+    Global object
+    Global scope
+    Global variable
+    Glyph
+    Google Chrome
+    GPL
+    GPU
+    Graceful degradation
+    Grid
+    Grid Areas
+    Grid Axis
+    Grid Cell
+    Grid Column
+    Grid container
+    Grid Lines
+    Grid Row
+    Grid Tracks
+    Guard
+    Gutters
+    Gzip compression
+
+H
+
+    Hash
+    Head
+    High-level programming language
+    HMAC
+    Hoisting
+    Host
+    Hotlink
+    Houdini
+    HPKP
+    HSTS
+    HTML
+    HTML5
+    HTTP
+    HTTP header
+    HTTP/2
+    HTTP/3
+    HTTPS
+    Hyperlink
+    Hypertext
+
+I
+
+    I18N
+    IANA
+    ICANN
+    ICE
+    IDE
+    Idempotent
+    Identifier
+    IDL
+    IETF
+    IIFE
+    IMAP
+    Immutable
+    Index
+    IndexedDB
+    Information architecture
+    Inheritance
+    Input method editor
+    Instance
+    Internationalization
+    Internet
+    Intrinsic size
+    IP Address
+    IPv4
+    IPv6
+    IRC
+    ISO
+    ISP
+    ITU
+
+J
+
+    Jank
+    Java
+    JavaScript
+    JPEG
+    jQuery
+    JSON
+
+K
+
+    Key
+    Keyword
+
+L
+
+    Latency
+    Layout viewport
+    Lazy load
+    LGPL
+    Ligature
+    Literal
+    Local scope
+    Local variable
+    Locale
+    Localization
+    Long task
+    Loop
+    Lossless compression
+    lossy compression
+    LTR (Left To Right)
+
+M
+
+    Main Axis
+    Main thread
+    markup
+    MathML
+    Media
+    Media (Audio-visual presentation)
+    Media (CSS)
+    Metadata
+    Method
+    Microsoft Edge
+    Microsoft Internet Explorer
+    Middleware
+    mime
+    MIME type
+    minification
+    MitM
+    Mixin
+    Mobile First
+    Modem
+    Modularity
+    Mozilla Firefox
+    Mutable
+    MVC
+
+N
+
+    Namespace
+    NaN
+    NAT
+    Native
+    Navigation directive
+    Netscape Navigator
+    Network throttling
+    NNTP
+    Node
+    Node (DOM)
+    Node (networking)
+    Node.js
+    non-normative
+    Normative
+    Null
+    Nullish value
+    Number
+
+O
+
+    Object
+    Object reference
+    OOP
+    OpenGL
+    OpenSSL
+    Opera Browser
+    Operand
+    Operator
+    Origin
+    OTA
+    OWASP
+
+P
+
+    P2P
+    PAC
+    Packet
+    Page load time
+    Page prediction
+    Parameter
+    Parent object
+    Parse
+    Parser
+    Payload body
+    Payload header
+    PDF
+    Perceived performance
+    Percent-encoding
+    PHP
+    Pixel
+    Placeholder names
+    Plaintext
+    PNG
+    Polyfill
+    Polymorphism
+    POP3
+    Port
+    Prefetch
+    Preflight request
+    Prerender
+    Presto
+    Primitive
+    Privileged
+    privileged code
+    Progressive Enhancement
+    Progressive web apps
+    Promise
+    Property
+    Property (CSS)
+    Property (JavaScript)
+    Protocol
+    Prototype
+    Prototype-based programming
+    Proxy server
+    Pseudo-class
+    Pseudo-element
+    Pseudocode
+    Public-key cryptography
+    Python
+
+Q
+
+    Quality values
+    Quaternion
+    QUIC
+
+R
+
+    RAIL
+    Random Number Generator
+    Raster image
+    RDF
+    Real User Monitoring (RUM)
+    Recursion
+    Reference
+    Reflow
+    Regular expression
+    Rendering engine
+    Repo
+    Reporting directive
+    Representation header
+    Request header
+    Resource Timing
+    Response header
+    Responsive web design
+    REST
+    RGB
+    RIL
+    Robots.txt
+    Round Trip Time (RTT)
+    Routers
+    RSS
+    Rsync
+    RTCP (RTP Control Protocol)
+    RTF
+    RTL (Right to Left)
+    RTP (Real-time Transport Protocol) and SRTP (Secure RTP)
+    RTSP: Real-time streaming protocol
+    Ruby
+
+S
+
+    Safe
+    Safe (HTTP Methods)
+    Same-origin policy
+    SCM
+    Scope
+    Screen reader
+    Script-supporting element
+    Scroll container
+    Scrollport
+    SCTP
+    SDP
+    Search engine
+    Second-level Domain
+    Secure Context
+    Secure Sockets Layer (SSL)
+    Selector (CSS)
+    Self-Executing Anonymous Function
+    Semantics
+    SEO
+    Serialization
+    Server
+    Server Timing
+    Session Hijacking
+    SGML
+    Shadow tree
+    Shim
+    Signature
+    Signature (functions)
+    Signature (security)
+    SIMD
+    Simple header
+    Simple response header
+    SISD
+    Site
+    Site map
+    SLD
+    Sloppy mode
+    Slug
+    Smoke Test
+    SMPTE (Society of Motion Picture and Television Engineers)
+    SMTP
+    Snap positions
+    SOAP
+    SPA (Single-page application)
+    Specification
+    Speculative parsing
+    Speed index
+    SQL
+    SQL Injection
+    SRI
+    Stacking context
+    State machine
+    Statement
+    Static method
+    Static typing
+    Strict mode
+    String
+    STUN
+    Style origin
+    Stylesheet
+    SVG
+    SVN
+    Symbol
+    Symmetric-key cryptography
+    Synchronous
+    Syntax
+    Syntax error
+    Synthetic monitoring
+
+T
+
+    Table Grid Box
+    Table Wrapper Box
+    Tag
+    TCP
+    TCP handshake
+    TCP slow start
+    Telnet
+    Texel
+    The Khronos Group
+    Thread
+    Three js
+    Time to first byte
+    Time to interactive
+    TLD
+    TOFU
+    Transmission Control Protocol (TCP)
+    Transport Layer Security (TLS)
+    Tree shaking
+    Trident
+    Truthy
+    TTL
+    TURN
+    Type
+    Type coercion
+    Type conversion
+
+U
+
+    UDP (User Datagram Protocol)
+    UI
+    undefined
+    Unicode
+    URI
+    URL
+    URN
+    Usenet
+    User agent
+    UTF-8
+    UX
+
+V
+
+    Validator
+    Value
+    Variable
+    Vendor Prefix
+    Viewport
+    Visual Viewport
+    VoIP
+
+W
+
+    W3C
+    WAI
+    WCAG
+    Web performance
+    Web server
+    Web standards
+    WebAssembly
+    WebDAV
+    WebExtensions
+    WebGL
+    WebIDL
+    WebKit
+    WebM
+    WebP
+    WebRTC
+    WebSockets
+    WebVTT
+    WHATWG
+    Whitespace
+    WindowProxy
+    World Wide Web
+    Wrapper
+
+X
+
+    XForms
+    XHR (XMLHttpRequest)
+    XHTML
+    XInclude
+    XLink
+    XML
+    XPath
+    XQuery
+    XSLT
+
+Other
+
+    404
+    502
+

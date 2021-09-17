@@ -1,0 +1,68 @@
+Gracias por contestar. El objetivo de mi entrada es más bien para tener contenido dentro de mi blog:  https://tutorwebenlinea.blogspot.com 
+Sin embargo, el objetivo en esencia es; introducir m a los usuarios al desarrollo de aplicaciones web, ya que ofrezco varios servicios relacionados con el desarrollo de aplicaciones web.  Ya tengo clientes activos  y deseo mantener la constancia. Además también incorporo componentes de interfaz de usuario dentro de la entrada, al final de la misma hay unos componentes  y sin embargo faltan muchos más. Por lo que veo, se torna demasiado extensa la entrada lo que para mi entender minimiza la probabilidad de lectura. Tal vez yo deba segmentar los componentes o no incorporarlos, ya que falta mostrar galerías de fotos, botones, elementos de entrada tales como:
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+Además otros componentes como menú de navegación en diversas posiciones arriba abajo derecha e izquierda, elementos de pie página, sesiones bordes tipos de letra y muchos otros  componentes usados en aplicaciones web. 
+
+
+<article>
+Define el contenido independiente y autocontenido
+
+<aside>
+Define el contenido aparte del contenido de la página
+
+<details>
+Define los detalles adicionales que el usuario puede ver u ocultar
+
+<figcaption> 
+Define un título para un elemento <figure>
+
+<figure>
+Especifica contenido autónomo, como ilustraciones, diagramas, fotos, listados de códigos, etc.
+
+<footer>
+Define un pie de página para un documento o sección
+
+<header>
+Especifica un encabezado para un documento o sección
+
+<main>
+Especifica el contenido principal de un documento
+
+<mark>
+Define el texto marcado / resaltado
+
+<nav>
+Define los enlaces de navegación
+
+<section>
+Define una sección en un documento
+
+<summary>
+Define un encabezado visible para un elemento <Detalles>
+
+<time>
+Define una fecha / hora
+

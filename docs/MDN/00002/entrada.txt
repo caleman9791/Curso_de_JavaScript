@@ -1,0 +1,51 @@
+¿Cómo se verá su sitio web?
+
+En esta entrada hablaremos de los conceptos necesarios para trabajar su aplicación web. Como todos sabemos para la construcción de algo debemos realizar una planificación primero. Entonces comencemos.
+
+
+A la ahora de planificar la interfaz de tu aplicación web debes  tomar en consideración los colores, tamaños, tipo de letra, ubicación de los elementos, reacción de los elementos  con los que el usuario puede interactuar, entre otros. También debemos pensar en los tamaños  de los dispositivos que usarán los usuarios para visualizar el  contenido de nuestra aplicación. Una vez tengamos todo esto definido. Podemos realizar un boceto a papel para previsualizar el contenido. En cuanto a los tipos de letra debemos encontrar la mejor alternativa, ya que existen un sinfín de tipos de letras solo que no todas serán cómodas  para que el usuario pueda leer el contenido. Además deberás tomar en consideración la accesibilidad. En cuanto a los colores te recomiendo que  busques información sobre estos  pues existen investigaciones sobre  las reacciones  humanas frente a interfaces  y su relación con los colores. Aunque más adelante estaré publicando una entrada dedicada a los colores, donde hablaré sobre esto.  
+
+Lo que se intenta con él UI es que el sistema sea lo más claro, conciso, coherente, flexible y atractivo visualmente posible.    
+
+Ya que tenemos clara la planificación, debo mencionar que hay dos conceptos importantes  que debes conocer, lo cual son la interfaz de usuario y la experiencia del usuario.  
+
+¿Cuál es la diferencia entre la interfaz del usuario y la experiencia de usuario?
+
+Una publicación en https://es.shopify.com/blog/experiencia-del-cliente-vs-experiencia-de-usuario-son-diferentes nos dice:
+
+La experiencia de usuario (user experience, UX) y la interfaz del usuario (UI) son conceptos que están muy relacionados. Sin embargo, no son lo mismo. La UX es la sensación que tiene un usuario al usar un determinado servicio, tanto físico como digital. En el caso de la UX, los desarrolladores se fijan más en que a los usuarios les guste más el sistema por su funcionalidad. En el caso de la UI, el objetivo es estético. Por tanto, el desarrollador se preocupa más de que el usuario sienta que el sistema es bonito e intuitivo. 
+
+Por ejemplo, trabajamos en una aplicación donde se debe hacer énfasis a los resultados estadísticos  y será usado por empleados de una empresa que provee productos y/o servicios. Estas interfaces por lo general carecen de  colores y efectos, pues se busca obtener resultados basados en estadísticas y usualmente se generan reportes limpios. Sin embargo la interfaz enfocada al atractivo visual puede ser al panel de compra de la misma empresa  solo que esté lo usaran los consumidores de productos y/o servicios. Estos no verán estadísticas de compras  solo verán una interfaz de consumo lo que se entiende que deberá ser visualmente atractiva para que el usuario consuma más  y le guste estar consumiendo. También debemos considerar que los consumidores no tendrán capacitación para trabajar con la interfaz  y los empleados de la empresa sí. Por lo que la interfaz de usuarios consumidores debe ser lo más sencilla posible e intuitiva  para el usuario.
+
+Ahora veamos ejemplos de componentes y sus colores, tamaños, formas y objetivos de los mismos.
+
+
+
+https://www.hebergementwebs.com/las-colecciones/9-mejores-marcos-css-en-2020
+
+¿Sabes en qué consiste la colorterapia o psicología del color? Se trata de utilizar los colores para cambiar un estado de ánimo o una conducta. Los colores ayudan a conseguir la calma, o por el contrario, nos aportan más energía. Y los colores, sí, también nos ayudan a concentrarnos.
+Cómo influyen los colores en la conducta de los niños
+
+Tabla de los colores
+
+Por ejemplo, según la interiorista Susanna Cots, el blanco es el color más beneficioso para creatividad de los niños. De ahí que la mayoría de los muebles infantiles se presenten en este color. Te parecerá sorprendente, pero los colores tienen un gran poder sobre nosotros. Te explicamos cómo influyen los colores en la conducta y emociones de los niños, así como en su aprendizaje.
+
+La ciencia está de acuerdo en que los colores ejercen un poder sobre el estado de ánimo de las personas. Y que también pueden mejorar la concentración, disminuir o aumentar la agresividad, ayudar a conciliar el sueño o estimular la memoria.  Los colores pueden influir también en la conducta de los niños. Te explicamos de qué forma.
+
+- El blanco: Tal vez pienses que el color más ligado a la creatividad sea el amarillo, o el naranja, por eso de que es vital y transmite energía y optimismo. Pues la realidad es que no es ese color el mejor aliado de la creatividad infantil.
+
+Según la interiorista Susana Cots (Girona, España), el color blanco es el mejor color para decorar las habitaciones de nuestros hijos, ya que es el que transmite pureza, calma y orden visual, y por tanto, es el mejor para incentivar la creatividad.
+
+- El rojo: Aporta energía y vitalidad, pero también puede producir algo de agresividad. Es recomendable para niños más retraídos o tímidos, y debe evitarse sin embargo en el caso de niños muy movidos, niños con hiperactividad o aquellos niños que tienden a exteriorizar su enfado por medio de rabietas.
+
+- El amarillo: Es un color ligado al estímulo intelectual. Como el color rojo, es un color muy vital. También es muy beneficioso para estimular la concentración de los niños. También muy útil para niños con depresión, ya que transmite mucho optimismo.
+
+- El azul: Se trata de un color relajante que transmite serenidad y paz. Muy indicado para niños con problemas para dormir, ya que beneficia el sueño. Es bueno para niños muy activos, pero no está indicado para niños tranquilos, ya que su exceso puede producir somnolencia.
+
+- El verde: Los psicólogos dicen que el verde consigue el equilibrio. Es un color excelente para transmitir armonía y calmar el sistema nervioso. Incluso puede ayudar a mejorar la capacidad lectora, tanto en velocidad como en la comprensión lectora. Ideal para niños más nerviosos o con problemas para manejar sus emociones. También como no, para niños con tendencia a las rabietas. Sin embargo, usar el color verde en exceso puede promover la pereza.
+
+- El naranja: Este color es una perfecta combinación de los beneficios del color rojo y el amarillo. Además, estimula la comunicación (perfecto para niños a los que les cuesta más hacer amigos) y algunos psicólogos aseguran que también es bueno para niños con poco apetito.
+
+- El morado o Púrpura: Combina la tranquilidad del azul y la energía del rojo, por lo que es un color bastante equilibrado, y muy ligado a potenciar la intuición.
+
+Puedes leer más artículos similares a Cómo influyen los colores en la conducta y emociones de los niños, en la categoría de Conducta en Guiainfantil.com.
