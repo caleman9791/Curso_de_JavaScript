@@ -9,6 +9,8 @@
 // concat () no cambia las matrices existentes.
 
 // /////////////////////////////////////////////////////
+// El método concat () se utiliza para fusionar dos o más matrices. 
+// Este método no cambia las matrices existentes, sino que devuelve una nueva matriz.
 
 function concadeda_Matriz(argument) {
 	let array1 = ["array1 1", "array1 2"];
