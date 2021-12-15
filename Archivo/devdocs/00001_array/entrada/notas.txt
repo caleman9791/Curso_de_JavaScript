@@ -1,0 +1,57 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+---------------------------------------------------------------
+https://devdocs.io/javascript/global_objects/array/@@iterator
+---------------------------------------------------------------
+
+El método @@ iterator es parte del protocolo iterable, que define cómo iterar sincrónicamente sobre una secuencia de valores.
+
+El valor inicial de la propiedad @@ iterator es el mismo objeto de función que el valor inicial de la propiedad Valores ().
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+-----------------------------------------------------------
+https://devdocs.io/javascript/global_objects/array/values
+-----------------------------------------------------------
+
+El método Valores () devuelve un nuevo objeto ITERATOR de matriz que contiene los valores para cada índice en la matriz.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+---------------------------------------------------------------
+https://devdocs.io/javascript/global_objects/generator/next
+---------------------------------------------------------------
+
+El siguiente () método devuelve un objeto con dos propiedades {done} y {value}. También puede proporcionar un parámetro al siguiente método para enviar un valor al generador.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+------------------------------------------------
+https://devdocs.io/javascript/operators/yield
+------------------------------------------------
+La palabra clave yield se usa para pausar y reanudar una función de generador (función * o función de generador heredada).
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+----------------------------------------------------------------
+https://devdocs.io/javascript/global_objects/generatorfunction
+----------------------------------------------------------------
+La función generadora crea un nuevo objeto de función de generador. En JavaScript, cada función del generador es en realidad un objeto GeneratorFunction.
+
+Tenga en cuenta que la función generadora no es un objeto global. Se podría obtener evaluando el siguiente código.
+
+var GeneratorFunction = Object.getPrototypeOf(function*(){}).constructor
+var g = new GeneratorFunction('a', 'yield a * 2');
+var iterator = g(10);
+console.log(iterator.next().value); // 20
+
+
+Estoy trabajando en la explicacion del objeto  itewrador  y su t=ralacvion  ocn value(), next(), function*, yield y otros detalles imnportantes

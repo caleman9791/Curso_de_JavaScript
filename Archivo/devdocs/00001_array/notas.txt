@@ -1,0 +1,76 @@
+Array
+Array.@@iterator
+Array.@@species
+array.@@unscopables
+Array.array
+Array.at
+array.concat
+Array.copyWithin
+array.entries
+array.every
+array.fill
+array.filter
+array.find
+Array.findIndex
+array.flat
+Array.flatMap
+Array.forEach
+Array.from
+array.includes
+Array.indexOf
+Array.isArray
+array.join
+array.keys
+Array.lastIndexOf
+array.length
+array.map
+Array.of
+array.pop
+array.push
+Array.reduce
+Array.reduceRight
+array.reverse
+array.shift
+array.slice
+array.some
+array.sort
+array.splice
+Array.toLocaleString
+Array.toSource
+Array.toString
+array.unshift
+array.values
+
+
+
+
+function logIterable(it) {
+  if (!(Symbol.iterator in Object.getPrototypeOf(it)
+      /* or "Symbol.iterator in Object.__proto__"
+         or "it[Symbol.iterator]" */
+    )) {
+    console.log(it, ' is not an iterable object...');
+    return;
+  }
+
+  var iterator = it[Symbol.iterator]();
+
+  for (let letter of iterator) {
+    console.log(letter);
+  }
+}
+
+// Array
+logIterable(['a', 'b', 'c']);
+// a
+// b
+// c
+console.log('==================================');
+// string
+logIterable('abc');
+// a
+// b
+// c
+console.log('==================================');
+logIterable("123");
+// 123 " is not an iterable object..."

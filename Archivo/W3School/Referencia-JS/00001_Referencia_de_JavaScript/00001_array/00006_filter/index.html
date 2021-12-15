@@ -9,10 +9,12 @@
     </title>
   </head>
   <body>
-    <input class="valores" type="text"/>
-    <input type="button" value="agregar valores"/>
+    <div class="" style="background-color: green; padding: 20px;">
+      <input class="valores w3-input" style="width: 300px;" type="text"/>
+      <input class="agregar w3-btn w3-green " type="button" value="agregar valores"/>
+    </div>
     <div class="w3-container">
-      <div class="w3-modal" id="modal">
+      <div class="w3-modal w3-animate-zoom" id="modal">
         <div class="w3-modal-content w3-card-4">
           <header class="w3-container w3-teal">
             <span class="w3-button w3-display-topright cerrar">
@@ -23,8 +25,8 @@
             </h2>
           </header>
           <div class="w3-container">
-            <input class="numero" type="text"/>
-            <input type="button" value="Agregar"/>
+            <input class="numero w3-input" type="text"/>
+            <input class="w3-btn" type="button" value="Agregar"/>
           </div>
           <footer class="w3-container w3-teal">
             <p>
@@ -34,9 +36,6 @@
         </div>
       </div>
     </div>
-    <iframe allowfullscreen="" height="450" loading="lazy" src="https://www.google.com/maps/embed/v1/place?key=API_KEY
-    &q=Space+Needle,Seattle+WA" style="border:0" width="600">
-    </iframe>
     <script src="js.js">
     </script>
   </body>

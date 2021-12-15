@@ -1,0 +1,3 @@
+El método @@ iterator es parte del protocolo iterable, que define cómo iterar sincrónicamente sobre una secuencia de valores.
+
+El valor inicial de la propiedad @@ iterator es el mismo objeto de función que el valor inicial de la propiedad Valores ().
