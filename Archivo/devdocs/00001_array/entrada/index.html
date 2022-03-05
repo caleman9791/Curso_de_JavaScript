@@ -3,11 +3,218 @@
   <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
+    <link href="css.css" rel="stylesheet" type="text/css"/>
     <title>
       Document
     </title>
   </head>
   <body>
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-bar-block w3-border-right w3-card-4" id="mySidebar" style="display:none">
+      <button class="btn_menu w3-bar-item w3-large fondo" onclick="w3_close()" style="color:white; height:125px;">
+        ☰
+      </button>
+      <!--     <a class="w3-bar-item w3-button" href="#">
+        Link 1
+      </a>
+      <a class="w3-bar-item w3-button" href="#">
+        Link 2
+      </a>
+      <a class="w3-bar-item w3-button" href="#">
+        Link 3
+      </a> -->
+      <div class="controls" style="display:none">
+        <!-- <input type="file"/> -->
+        <ul class="social-icons">
+          <li>
+            <a href="#">
+              <i class="fa fa-instagram">
+              </i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-twitter">
+              </i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-linkedin">
+              </i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-codepen">
+              </i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Page Content -->
+    <div class="fondo">
+      <button class="btn_menu w3-button fondo_menu w3-xlarge" onclick="w3_open()">
+        ☰
+      </button>
+      <div class="w3-container">
+        <h1 style="color: white;">
+          My Page
+        </h1>
+        <div class="container">
+          <div class="card">
+            <div class="div_codefuncode">
+              <img alt="Person" class="card__image codefuncode" src="codefuncode.jpg"/>
+            </div>
+            <p class="card__name">
+              Codigo Divertido
+            </p>
+            <div class="grid-container">
+              <div class="grid-child-posts">
+                156 Post
+              </div>
+              <div class="grid-child-followers">
+                1012 Likes
+              </div>
+            </div>
+            <ul class="social-icons">
+              <li>
+                <a href="#">
+                  <i class="fa fa-instagram">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-twitter">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-linkedin">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-codepen">
+                  </i>
+                </a>
+              </li>
+            </ul>
+            <button class="btn draw-border">
+              Follow
+            </button>
+            <button class="btn draw-border">
+              Message
+            </button>
+          </div>
+          <div class="card_caleman9791">
+            <div class="div_caleman9791">
+              <img alt="Person" class="card__image caleman9791" src="caleman9791.jpg"/>
+            </div>
+            <p class="card__name">
+              Carlos Aleman
+            </p>
+            <div class="grid-container">
+              <div class="grid-child-posts">
+                305 Post
+              </div>
+              <div class="grid-child-followers">
+                2643 Likes
+              </div>
+            </div>
+            <ul class="social-icons">
+              <li>
+                <a href="#">
+                  <i class="fa fa-instagram">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-twitter">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-linkedin">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-codepen">
+                  </i>
+                </a>
+              </li>
+            </ul>
+            <button class="btn draw-border">
+              Follow
+            </button>
+            <button class="btn draw-border">
+              Message
+            </button>
+          </div>
+          <div class="card_tutorweb">
+            <div class="div_tutorweb">
+              <img alt="Person" class="card__image tutorweb" src="tutorweb.jpg"/>
+            </div>
+            <p class="card__name">
+              Tutor Web
+            </p>
+            <div class="grid-container">
+              <div class="grid-child-posts">
+                902 Post
+              </div>
+              <div class="grid-child-followers">
+                1300 Likes
+              </div>
+            </div>
+            <ul class="social-icons">
+              <li>
+                <a href="#">
+                  <i class="fa fa-instagram">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-twitter">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-linkedin">
+                  </i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-codepen">
+                  </i>
+                </a>
+              </li>
+            </ul>
+            <button class="btn draw-border">
+              Follow
+            </button>
+            <button class="btn draw-border">
+              Message
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <input class="btn_codefuncode" style="display:none" type="file"/>
+    <input class="btn_tutorweb" style="display:none" type="file"/>
+    <input class="btn_caleman9791" style="display:none" type="file"/>
     <script src="js.js">
     </script>
   </body>

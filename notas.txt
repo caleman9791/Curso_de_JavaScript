@@ -9,7 +9,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch
 
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
-
+/opt/lampp/htdocs/Proyectos/cursos/Curso-de-JavaScript/notas.txt
 checkbox
 color
 date
