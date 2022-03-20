@@ -1,0 +1,517 @@
+<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
+<div class="w3-panel">
+  <a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/codefuncode?ref_src=twsrc%5Etfw">
+    Follow @codefuncode
+  </a>
+  <script async="" charset="utf-8" src="https://platform.twitter.com/widgets.js">
+  </script>
+</div>
+<div class="">
+  <div class="">
+    <style type="text/css">
+      .let_variable {
+          color: #FFEB3B;
+          }
+          .fondo {
+          background-color: #1D1D1D !important;
+          color: white;
+          padding: 35px !important;
+          }
+          .comentario {
+          color: #F1F1F1;
+          }
+          .console {
+          color: #CDDC39;
+          margin-right: -5px;
+          }
+          .log {
+          color: #E91E63;
+          margin-left: -5px;
+          margin-right: -5px;
+          }
+          .operador {
+          color: #4CAF50;
+          }
+          .variable {
+          color: #FF9800;
+          }
+          .margen_negativo {
+          margin-right: -5px;
+          }
+          .indice_matiz {
+          color: #00FFFF;
+          margin-left: -5px;
+          margin-right: -5px;
+          }
+          .numero {
+          color: #00FFFF;
+          }
+          .texto {
+          color: #9C27B0;
+          /*  margin-left: -5px;
+          margin-right: -5px;*/
+          }
+          .variable_en_consola {
+          color: #FF9800;
+          /*  margin-left: -5px;
+          margin-right: -5px;*/
+          }
+          .code_ml {
+          margin-left: -5px;
+          }
+          .code_mr {
+          margin-right: -5px;
+          }
+          .objeto {
+          color: #8BC34A;
+          }
+          /*.code_borde {
+          border: 10px solid blue;
+          display: inline;
+          box-sizing: border-box;
+          }*/
+
+          .espacio {
+          height: 25px;
+          }
+          .comentario {
+          color: #9E9E9E;
+          }
+          .w3-code {
+            border-left: 20px solid #9C27B0; 
+          }
+
+          @media screen and (min-width: 601px) {
+          .w3-code {
+          font-size: 12px;
+          }
+          }
+
+          @media screen and (max-width: 600px) {
+          .w3-code {
+          font-size: 6px;
+          }
+          }
+    </style>
+  </div>
+  <div class="">
+    <img alt="" class="w3-image" src="https://blogger.googleusercontent.com/img/a/AVvXsEiH5vFui0wcB6OxRRfMf1zXXg9mXnVsBwBf02MUbXdCkLTOAhxtXvUQ-_s1aMPhKlMmzWIg2IM06n9HTGlPus-BX0ljCAoeLR-V_laadALCrFR57gAH83ORsuUMx9k9ZHR2w8IxgT28h87EAnHyLX4tx-XWg0u0vmURbQiMI7zoO8JwvIsL1k5mV1RHlA"/>
+  </div>
+  <div class="">
+    <div class="w3-panel">
+      <p>
+        En esta ocasión les traigo algo muy sencillo. Se trata de cómo definir una matriz y acceder a sus valores. Recordemos que las matrices tienen valores de acuerdo a su índice. O sea que una matriz puede tener distintos valores y para encontrarlos debemos especificar el índice en que se encuentra. A continuación un ejemplo de cómo definir una matriz y acceder a sus valores.
+      </p>
+    </div>
+    <div class="w3-panel">
+      <p>
+        Un Aray en JavaScript es un objeto. Básicamente, todo es un objeto en JavaScript. Por lo que cuando estés avanzado con este lenguaje verás que en ocasiones deberás buscar el objeto en sí, ya que muchos de los objetos tienen métodos ya definidos por defecto y en otras ocasiones tienen métodos que no conocemos, porque en la internet no se habla mucho de ellos. Más adelante hablaré muchos detalles sobre esto. Más adelante hablaremos de matrices asociativas y mucho más. Por ahora veamos esto.
+      </p>
+    </div>
+    <div class="">
+      <div class="w3-panel w3-card-4 w3-light-grey w3-margin">
+        <h3>
+          Ejemplo
+        </h3>
+        <div class="w3-code notranslate fondo w3-round-xlarge">
+          <span class="let_variable">
+            let
+          </span>
+          <apan class="variable">
+            elemento
+          </apan>
+          <span class="operador">
+            =
+          </span>
+          <span class="let_variable">
+            new
+          </span>
+          <span class="objeto code_mr">
+            Array
+          </span>
+          (
+          <span class="texto code_ml code_mr">
+            'Elemento 1'
+          </span>
+          ,
+          <span class="texto code_ml code_mr">
+            'Elemento 2'
+          </span>
+          );
+          <br/>
+          <span class="console">
+            console
+          </span>
+          .
+          <span class="log">
+            log
+          </span>
+          (
+          <span class="variable code_ml code_mr">
+            elemento
+          </span>
+          .length);
+          <span class="comentario">
+            // 2
+          </span>
+          <br/>
+          <span class="console">
+            console
+          </span>
+          .
+          <span class="log">
+            log
+          </span>
+          (
+          <span class="variable code_ml code_mr">
+            elemento
+          </span>
+          [
+          <span class="numero code_ml code_mr">
+            0
+          </span>
+          ]);
+          <span class="comentario">
+            // "Elemento 1"
+          </span>
+          <br/>
+          <br/>
+          <br/>
+          <!-- ///////////////////////////////////////////////// -->
+          <span class="comentario">
+            // constructor literal
+          </span>
+          <br/>
+          [
+          <span class="variable code_ml code_mr">
+            element0
+          </span>
+          ,
+          <span class="variable code_ml code_mr">
+            element1
+          </span>
+          ,
+          <span class="comentario">
+            /* ... ,*/
+          </span>
+          <span class="variable code_mr">
+            elementN
+          </span>
+          ];
+          <br/>
+          <br/>
+          <span class="comentario">
+            // construir a partir de elementos
+          </span>
+          <br/>
+          <span class="let_variable">
+            new
+          </span>
+          <span class="objeto code_mr">
+            Array
+          </span>
+          (
+          <span class="variable code_ml code_mr">
+            element0
+          </span>
+          ,
+          <span class="variable code_ml code_mr">
+            element1
+          </span>
+          ,
+          <span class="comentario">
+            /* ... ,*/
+          </span>
+          <span class="variable code_mr">
+            elementN
+          </span>
+          );
+          <br/>
+          <br/>
+          <span class="comentario">
+            // construir a partir de la longitud de la matriz
+          </span>
+          <br/>
+          <span class="let_variable">
+            new
+          </span>
+          <span class="objeto code_mr">
+            Array
+          </span>
+          (
+          <span class="variable code_ml code_mr">
+            tamañoArray
+          </span>
+          );
+          <br/>
+        </div>
+      </div>
+    </div>
+    <div class="espacio">
+    </div>
+    <div class="">
+      <div class="w3-panel w3-card-4 w3-light-grey w3-margin">
+        <h3>
+          Ejemplo
+        </h3>
+        <div class="w3-code notranslate fondo w3-round-xlarge">
+          <span class="comentario">
+            // Definimos la matriz.
+          </span>
+          <br/>
+          <!-- //////////////////////////////////////// -->
+          <!-- let elementos = [ 'Elemento 1' , 'Elemento 2' ];  -->
+          <span class="let_variable">
+            let
+          </span>
+          <span class="variable">
+            elementos
+          </span>
+          <span class="operador">
+            =
+          </span>
+          [
+          <span class="texto code_ml code_mr">
+            'Elemento 1'
+          </span>
+          ,
+          <span class="texto code_ml code_mr">
+            'Elemento 2'
+          </span>
+          ];
+          <!-- //////////////////////////////////////// -->
+          <br/>
+          <br/>
+          <span class="comentario">
+            // Desplegar resultado en consola.
+          </span>
+          <br/>
+          <!-- /////////////////////////////////////// -->
+          <span class="console">
+            console
+          </span>
+          .
+          <span class="log">
+            log
+          </span>
+          (
+          <span class="variable_en_consola code_ml">
+            elementos
+          </span>
+          .length);
+          <br/>
+          <!-- /////////////////////////////////////// -->
+          <br/>
+          <span class="comentario">
+            // Agregar el valor dentro del índice de
+            <br/>
+            // la matriz a una variable de forma manual.
+          </span>
+          <br/>
+          <!-- ////////////////////////////////////// -->
+          <!-- let primer_elemento = elementos [ 0 ];  -->
+          <span class="let_variable">
+            let
+          </span>
+          <span class="variable">
+            primer_elemento
+          </span>
+          <span class="operador">
+            =
+          </span>
+          <span class="span variable margen_negativo">
+            elementos
+          </span>
+          [
+          <span class="indice_matiz ">
+            0
+          </span>
+          ];
+          <br/>
+          <!-- ////////////////////////////////////// -->
+          <!-- ///////////////////////////////////// -->
+          <!-- let segundo_elemento = elementos [ 1 ];  -->
+          <span class="let_variable">
+            let
+          </span>
+          <span class="variable">
+            segundo_elemento
+          </span>
+          <span class="operador">
+            =
+          </span>
+          <span class="span variable margen_negativo">
+            elementos
+          </span>
+          [
+          <span class="indice_matiz">
+            1
+          </span>
+          ];
+          <br/>
+          <!-- ///////////////////////////////////// -->
+          <br/>
+          <span class="comentario">
+            // Desplegar resultado en consola.
+          </span>
+          <br/>
+          <!-- //////////////////////////////////// -->
+          <!-- console . log ( primer_elemento );  -->
+          <span class="console">
+            console
+          </span>
+          .
+          <span class="log">
+            log
+          </span>
+          (
+          <span class="variable_en_consola code_ml code_mr">
+            primer_elemento
+          </span>
+          );
+          <!-- //////////////////////////////////// -->
+          <br/>
+          <!-- /////////////////////////////////// -->
+          <!-- console . log ( segundo_elemento );  -->
+          <span class="console">
+            console
+          </span>
+          .
+          <span class="log">
+            log
+          </span>
+          (
+          <span class="variable_en_consola code_ml code_mr">
+            segundo_elemento
+          </span>
+          );
+          <!-- /////////////////////////////////// -->
+          <br/>
+          <br/>
+          <span class="console">
+            console
+          </span>
+          .
+          <span class="log">
+            log
+          </span>
+          (
+          <span class="texto code_ml code_mr">
+            "==============================="
+          </span>
+          );
+          <br/>
+          <br/>
+          <span class="comentario">
+            // Esto es un bucle y recorrerá y mostrará cada índice en consola.
+          </span>
+          <br/>
+          <!-- /////////////////////////////////// -->
+          <!-- for ( let i = 0 ; i < elementos .length; i++) {  -->
+          for (
+          <span class="let_variable code_ml">
+            let
+          </span>
+          <span class="variable">
+            i
+          </span>
+          =
+          <span class="numero code_mr">
+            0
+          </span>
+          ;
+          <span class="variable">
+            i
+          </span>
+          <span class="operador">
+            <
+          </span>
+          <span class="variable_en_consola code_mr">
+            elementos
+          </span>
+          .length;
+          <span class="variable">
+            i
+          </span>
+          <span class="operador code_ml">
+            ++
+          </span>
+          {
+          <!-- /////////////////////////////////// -->
+          <br/>
+          <span class="console">
+            console
+          </span>
+          .
+          <span class="span log">
+            log
+          </span>
+          (
+          <span class="variable_en_consola code_ml code_mr ">
+            elementos
+          </span>
+          [
+          <span class="variable code_ml code_mr">
+            i
+          </span>
+          ]);
+          <br/>
+          }
+          <br/>
+          <br/>
+          <span class="console">
+            console
+          </span>
+          .
+          <span class="log">
+            log
+          </span>
+          (
+          <span class="texto code_ml code_mr">
+            "==============================="
+          </span>
+          );
+          <br/>
+          <br/>
+          <!-- ///////////////////////////////////////////////// -->
+          <!-- // console.log(elementos[elementos.length - 1]); -->
+          <span class="comentario">
+            // Con estos parámetros podremos acceder al último valor de
+            <br/>
+            // la matriz que es la longitud de la matriz menos uno y sabrás
+            <br/>
+            // que el primer valor de la matriz es cero.
+            <br/>
+          </span>
+          <span class="console">
+            console
+          </span>
+          .
+          <span class="log">
+            log
+          </span>
+          (
+          <span class="variable code_ml code_mr">
+            elementos
+          </span>
+          [
+          <span class="variable code_ml code_mr">
+            elementos
+          </span>
+          .length
+          <span class="operador">
+            -
+          </span>
+          <span class="numero code_mr">
+            1
+          </span>
+          ]);
+          <br/>
+          <!-- ///////////////////////////////////////////////// -->
+        </div>
+      </div>
+    </div>
+    <div class="">
+    </div>
+  </div>
+</div>

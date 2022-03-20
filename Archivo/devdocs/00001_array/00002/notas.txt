@@ -1,0 +1,14 @@
+En esta entrada hablaremos de iterador en JavaScript.
+Veamos que nos dice la documentación de MDN en cuestión
+
+@@iterador
+El método @@iterator es parte del protocolo iterable, que define cómo iterar sincrónicamente sobre una secuencia de valores.
+
+El valor inicial de la propiedad "@@iterator" es el mismo objeto de función que el valor inicial de la propiedad "values()".
+
+
+valores()
+El método de "values()" devuelve un nuevo objeto iterador de matriz que contiene los valores para cada índice en la matriz.
+
+
+Teniendo eso claro, veamos algunos ejemplos de implementación de uso para que tengamos una idea de cómo usar.
