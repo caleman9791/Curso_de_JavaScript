@@ -41,6 +41,7 @@ function allPermutations(items) {
 
 btn.addEventListener("click", function(argument) {
 
+  // alert("HolA COLMO ESTA");
 
   let matriz = [];
 

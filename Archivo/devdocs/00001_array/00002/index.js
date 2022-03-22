@@ -1,22 +1,58 @@
-const matriz = ['a', 'b', 'c'];
+// const matriz = ['a', 'b', 'c'];
 
-const literable_matriz =
-  matriz[Symbol.iterator]();
+// const literable_matriz =
+//   matriz[Symbol.iterator]();
 
-const resultado_caracter =
-  document.getElementById('resultado_caracter');
+// const resultado_caracter =
+//   document.getElementById('resultado_caracter');
 
-// Su navegador debe ser compatible con for..of loop
-// y variables de alcance permitido en bucles for
-// también se pueden usar const y var
+// // Su navegador debe ser compatible con for..of loop
+// // y variables de alcance permitido en bucles for
+// // también se pueden usar const y var
 
-for (let caracter of literable_matriz) {
+// for (let caracter of literable_matriz) {
 
-  const lista = document.createElement('li');
+//   const lista = document.createElement('li');
 
-  lista.textContent = caracter;
+//   lista.textContent = caracter;
 
-  resultado_caracter.appendChild(lista);
+//   resultado_caracter.appendChild(lista);
+
+// }
+
+
+function removeAllChildNodes(parent) {
+  while (parent.firstChild) {
+    parent.removeChild(parent.firstChild);
+  }
+}
+
+function iteraddor_modal(argument) {
+
+
+  const matriz = argument;
+
+  const literable_matriz =
+    matriz[Symbol.iterator]();
+
+  const resultado_caracter =
+    document.querySelector('#resultado_caracter ol');
+
+  removeAllChildNodes(resultado_caracter);
+
+  // Su navegador debe ser compatible con for..of loop
+  // y variables de alcance permitido en bucles for
+  // también se pueden usar const y var
+
+  for (let caracter of literable_matriz) {
+
+    const lista = document.createElement('li');
+
+    lista.textContent = caracter;
+
+    resultado_caracter.appendChild(lista);
+
+  }
 
 }
 
