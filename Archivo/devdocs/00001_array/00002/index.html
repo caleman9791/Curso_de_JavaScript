@@ -12,8 +12,7 @@
       <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
       <div class="w3-container w3-margin">
         <p>
-          En esta entrada hablaremos de iterador en JavaScript.
- Veamos que nos dice la documentación de MDN en cuestión
+          En esta entrada hablaremos de iterador en JavaScript. Veamos que nos dice la documentación de MDN en cuestión
         </p>
         <details>
           <summary>
@@ -37,26 +36,9 @@
         </p>
         Un detalle importante es que los números no son iterables. Bueno, en realidad los números, que son tratados como números, pues en JavaScript si encierras números entre comillas JavaScript los tratará como texto. La realidad es que JavaScript lo trata todo como texto en un principio o por lo menos todos los valores extraídos de campos input. Esto se debe a que JavaScript es un lenguaje no tipado, o sea que no maneja tipos de datos en un principio. Hay métodos para ayudarnos a encontrar el tipo de dato al que pertenece un dato de entrada, por el usuario o recuperado de una base de datos. Por ejemplo, 123 no es igual que "123" aunque en ocasiones JavaScript al compararlos, puede decir que son iguales, de ese tema hablaremos después, ahora iremos al ejemplo de iterador en JavaScript.
         <div class="">
-          <button class="w3-button w3-black" onclick="document.getElementById('modal_001').style.display='block'">
-            Open Modal
+          <button class="w3-button w3-black btn_model_iterador" onclick="document.getElementById('modal_001').style.display='block'">
+            Iterador
           </button>
-          <!--     <div class="w3-card-4">
-            <div class="w3-container w3-green">
-              <h3>
-                Escribe una cadena de texto.
-              </h3>
-            </div>
-            <div class="w3-container">
-              <label>
-                First Name
-              </label>
-              <input class="w3-input" placeholder="Escribe una cadena de texto..." type="text"/>
-              <label>
-                Last Name
-              </label>
-              <input class="w3-input" type="text"/>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
@@ -73,13 +55,21 @@
               </span>
             </div>
             <div class="w3-container w3-margin-top">
-              <input class="w3-input w3-border w3-border-green" placeholder="Escribe una cadena de texto..." type="text"/>
+              <input class="w3-input w3-border w3-border-green txt_cadena" placeholder="Escribe una cadena de texto..." type="text"/>
             </div>
             <div class="w3-bar">
               <div class="w3-row-padding">
                 <div class="w3-col" style="width:50%">
-                  <div class="w3-button w3-left w3-margin" style="text-align: left;">
+                  <div class="w3-left w3-margin" style="text-align: left;">
                     <div class="">
+                      <input class="tipo" name="tipo" type="radio" value="normal"/>
+                      <label for="">
+                        normal
+                      </label>
+                      <input class="tipo" name="tipo" type="radio" value="values"/>
+                      <label for="">
+                        values
+                      </label>
                       <div id="resultado_caracter">
                         <ol>
                         </ol>
@@ -88,7 +78,7 @@
                   </div>
                 </div>
                 <div class="w3-col" style="width:50%">
-                  <button class="w3-button w3-right w3-margin w3-green">
+                  <button class="w3-button w3-right w3-margin w3-green btn_iterar">
                     Iterar
                   </button>
                 </div>

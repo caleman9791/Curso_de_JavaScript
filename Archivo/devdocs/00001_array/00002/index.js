@@ -1,24 +1,23 @@
-// const matriz = ['a', 'b', 'c'];
+class ObjetoIterador {
+  constructor(iiterador) {
+    this.iiterador = iiterador[Symbol.iterator]();
+    this.llamada = 0;
+  }
 
-// const literable_matriz =
-//   matriz[Symbol.iterator]();
+  getNextvalue() {
+    return this.iiterador.next().value;
+  }
 
-// const resultado_caracter =
-//   document.getElementById('resultado_caracter');
+}
 
-// // Su navegador debe ser compatible con for..of loop
-// // y variables de alcance permitido en bucles for
-// // también se pueden usar const y var
+let prueba = false;
 
-// for (let caracter of literable_matriz) {
+function llamada(argument) {
 
-//   const lista = document.createElement('li');
+  return prueba.getNextvalue();
 
-//   lista.textContent = caracter;
+}
 
-//   resultado_caracter.appendChild(lista);
-
-// }
 
 
 function removeAllChildNodes(parent) {
@@ -26,6 +25,16 @@ function removeAllChildNodes(parent) {
     parent.removeChild(parent.firstChild);
   }
 }
+let resultado_caracter =
+  document.querySelector('#resultado_caracter ol');
+
+let btn_model_iterador =
+  document.querySelector('.btn_model_iterador');
+
+btn_model_iterador.addEventListener("click", function(argument) {
+  removeAllChildNodes(resultado_caracter);
+  document.getElementById('modal_001').style.display = 'block';
+});
 
 function iteraddor_modal(argument) {
 
@@ -35,18 +44,12 @@ function iteraddor_modal(argument) {
   const literable_matriz =
     matriz[Symbol.iterator]();
 
-  const resultado_caracter =
-    document.querySelector('#resultado_caracter ol');
 
   removeAllChildNodes(resultado_caracter);
 
-  // Su navegador debe ser compatible con for..of loop
-  // y variables de alcance permitido en bucles for
-  // también se pueden usar const y var
-
   for (let caracter of literable_matriz) {
 
-    const lista = document.createElement('li');
+    let lista = document.createElement('li');
 
     lista.textContent = caracter;
 
@@ -56,45 +59,41 @@ function iteraddor_modal(argument) {
 
 }
 
+let btn_iterar = document.querySelector(".btn_iterar");
 
-var arr = ['a', 'b', 'c', 'd', 'e'];
-var eArr = arr[Symbol.iterator]();
-console.log(eArr.next().value); // a
-console.log(eArr.next().value); // b
-console.log(eArr.next().value); // c
-console.log(eArr.next().value); // d
-console.log(eArr.next().value); // e
+btn_iterar.addEventListener("click", function(argument) {
+  let txt_cadena = document.querySelector(".txt_cadena");
+  let tipo = document.querySelectorAll(".tipo");
 
+  let seleccion = "";
 
-function logIterable(it) {
-  if (!(Symbol.iterator in Object.getPrototypeOf(it)
-      /* or "Symbol.iterator in Object.__proto__"
-         or "it[Symbol.iterator]" */
-    )) {
-    console.log(it, ' is not an iterable object...');
-    return;
+  for (var i = 0; i < tipo.length; i++) {
+
+    if (tipo[i].checked) {
+      seleccion = tipo[i].value;
+    }
+
   }
 
-  var iterator = it[Symbol.iterator]();
-  // your browser must support for..of loop
-  // and let-scoped variables in for loops
-  // const and var could also be used
-  for (let letter of iterator) {
-    console.log(letter);
+  if (seleccion == "normal") {
+
+    iteraddor_modal(txt_cadena.value);
+
+  } else {
+
+    if (prueba == false) {
+      prueba = new ObjetoIterador(txt_cadena.value);
+    } else {
+
+    }
+
+    let lista = document.createElement('li');
+
+    lista.textContent = llamada();
+
+    resultado_caracter.appendChild(lista);
+
   }
-}
 
-// Array
-logIterable(['a', 'b', 'c']);
-// a
-// b
-// c
 
-// string
-logIterable('abc');
-// a
-// b
-// c
-
-logIterable(123);
-// 123 " is not an iterable object..."
+});
