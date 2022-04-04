@@ -18,8 +18,6 @@ function llamada(argument) {
 
 }
 
-
-
 function removeAllChildNodes(parent) {
   while (parent.firstChild) {
     parent.removeChild(parent.firstChild);
@@ -30,20 +28,25 @@ let resultado_caracter =
 
 let btn_model_iterador =
   document.querySelector('.btn_model_iterador');
+let btn_model_carta =
+  document.querySelector('.btn_model_carta');
 
 btn_model_iterador.addEventListener("click", function(argument) {
   removeAllChildNodes(resultado_caracter);
   document.getElementById('modal_001').style.display = 'block';
 });
 
-function iteraddor_modal(argument) {
+btn_model_carta.addEventListener("click", function(argument) {
+  removeAllChildNodes(resultado_caracter);
+  document.getElementById('modal_002').style.display = 'block';
+});
 
+function iteraddor_modal(argument) {
 
   const matriz = argument;
 
   const literable_matriz =
     matriz[Symbol.iterator]();
-
 
   removeAllChildNodes(resultado_caracter);
 
@@ -95,5 +98,11 @@ btn_iterar.addEventListener("click", function(argument) {
 
   }
 
-
 });
+
+// let carta3 = new Carta("texto aqui 3");
+// // let carta2 = new Carta("texto aqui 2");
+
+// // let contenedor_cartas = document.querySelector(".contenedor_cartas");
+// // contenedor_cartas.appendChild(carta.getCarta);
+// contenedor_cartas.appendChild(carta3.getCarta);
