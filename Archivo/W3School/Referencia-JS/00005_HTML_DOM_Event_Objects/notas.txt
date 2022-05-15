@@ -1,0 +1,51 @@
+Objetos de evento HTML DOM
+Objetos de eventos
+
+Cuando ocurre un evento en HTML, el evento pertenece a un determinado objeto del evento, como un evento de clic del mouse pertenece al objeto MouseEvent.
+
+Para un tutorial sobre eventos, lea nuestro tutorial de eventos JavaScript.
+El objeto del evento
+
+Todos los objetos de eventos se basan en el objeto del evento y heredan todas sus propiedades y métodos
+Descripción del objeto del evento
+Evento el padre de todos los objetos de eventos
+Otros objetos de evento
+
+Estos son los objetos de eventos más comunes:
+
+Descripción del objeto del evento
+
+AnimationEvent 					Para animaciones CSS
+---------------------------------------------------------------------------------------------
+ClipboardEvent	 				Para la modificación del portapapeles
+---------------------------------------------------------------------------------------------
+DragEvent 						Para la interacción de arrastre y caída
+---------------------------------------------------------------------------------------------
+FocusEvent						Para eventos relacionados con el enfoque
+---------------------------------------------------------------------------------------------
+HashChangeEvent 				Para los cambios en la parte de anclaje de la URL
+---------------------------------------------------------------------------------------------
+InputEvent 						Para la entrada del usuario
+---------------------------------------------------------------------------------------------
+KeyboardEvent 					Para la interacción del teclado
+---------------------------------------------------------------------------------------------
+MouseEvent 						Para la interacción del ratón
+---------------------------------------------------------------------------------------------
+PageTransitionEvent 			Para navegar y lejos de las páginas web
+---------------------------------------------------------------------------------------------
+PopStateEvent 					Para los cambios en la entrada del historial
+---------------------------------------------------------------------------------------------
+ProgressEvent 					Para el progreso de la carga de recursos externos
+---------------------------------------------------------------------------------------------
+StorageEvent 					Para los cambios en el área de almacenamiento de la ventana.
+---------------------------------------------------------------------------------------------
+TouchEvent 						Para la interacción táctil
+---------------------------------------------------------------------------------------------
+TransitionEvent 				Para transiciones CSS
+---------------------------------------------------------------------------------------------
+UiEvent 						Para la interacción de la interfaz de usuario
+---------------------------------------------------------------------------------------------
+WheelEvent	 					Para la interacción del ratón
+---------------------------------------------------------------------------------------------
+
+

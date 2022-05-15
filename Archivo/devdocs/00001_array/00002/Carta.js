@@ -13,6 +13,7 @@ class Carta {
     this.parrafo =
       document.createElement("p");
     this.texto = texto;
+    this.url = "";
 
   }
   // Getter
@@ -21,12 +22,20 @@ class Carta {
     return this.columna;
 
   }
+
+  setImagen(url_img) {
+    this.url = url_img;
+    this.imagen.src = this.url;
+
+  }
   // Method
   crearCarta() {
     this.columna.setAttribute("class", "w3-col s12 m4 l3 w3-margin-top");
     this.carta.setAttribute("class", "w3-card-4");
     this.imagen.setAttribute("src", "https://www.w3schools.com/w3css/img_snowtops.jpg");
     this.imagen.setAttribute("class", "w3-image");
+    this.imagen.style.height = "100px";
+    this.imagen.style.width = "100%";
     this.contenedor_texto.setAttribute("class", "w3-container w3-center");
     this.columna.appendChild(this.carta);
     this.carta.appendChild(this.imagen);
@@ -65,6 +74,8 @@ let urlimagen = [
 let selecion_img = document.querySelectorAll(".selecion_img img");
 let targeta_muestrra = document.querySelector(".targeta_muestrra");
 let btn_texto_crear = document.querySelector(".btn_texto_crear");
+let texto_aqui = document.querySelector(".texto_aqui");
+let btn_crear = document.querySelector(".btn_crear");
 targeta_muestrra.style.height = "200px";
 for (var i = 0; i < selecion_img.length; i++) {
 
@@ -77,11 +88,46 @@ for (var i = 0; i < selecion_img.length; i++) {
     targeta_muestrra.src = this.src;
   });
 }
-let carta = new Carta("texto aqui");
-let carta2 = new Carta("texto aqui 2");
+let carta = [];
+// carta.push(new Carta("texto aqui"));
+// carta.push(new Carta("texto aqui 2"));
+
+for (var i = 0; i < 10; i++) {
+  carta.push(new Carta("texto aqui " + i));
+}
 
 let contenedor_cartas = document.querySelector(".contenedor_cartas");
-contenedor_cartas.appendChild(carta.getCarta);
-contenedor_cartas.appendChild(carta2.getCarta);
 
-console.log(carta.getCarta);
+for (var i = 0; i < carta.length; i++) {
+
+  contenedor_cartas.appendChild(carta[i].getCarta);
+  carta[i].setImagen(urlimagen[i]);
+}
+// contenedor_cartas.appendChild(carta[0].getCarta);
+// contenedor_cartas.appendChild(carta[1].getCarta);
+
+console.log(carta);
+
+btn_texto_crear.addEventListener("keyup", function(arguments) {
+  console.log(this.value);
+
+  if (this.value.length <= 20) {
+    if (this.value == "") {
+      texto_aqui.textContent = "Escribe titulo aquí ...";
+    } else {
+      texto_aqui.textContent = this.value;
+    }
+  } else {
+    this.value = texto_aqui.textContent;
+  }
+
+  // texto_aqui.textContent = this.value;
+});
+
+btn_crear.addEventListener("click", function(arguments) {
+  let temp_card = new Carta(texto_aqui.textContent);
+  temp_card.setImagen(targeta_muestrra.src);
+  carta.push(temp_card);
+  contenedor_cartas.appendChild(temp_card.getCarta);
+
+});

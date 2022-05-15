@@ -19,9 +19,13 @@ function llamada(argument) {
 }
 
 function removeAllChildNodes(parent) {
+
   while (parent.firstChild) {
+
     parent.removeChild(parent.firstChild);
+
   }
+
 }
 let resultado_caracter =
   document.querySelector('#resultado_caracter ol');
