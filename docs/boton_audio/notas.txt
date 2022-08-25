@@ -1,0 +1,165 @@
+https://iconarchive.com/show/spherical-icons-by-ahmadhania.1.html
+https://responsivevoice.org/
+
+
+https://www.youtube.com/watch?v=2Vfs9f_v1W0
+
+// responsiveVoice.speak("hello world", "UK English Male", {pitch: 2});
+
+// responsiveVoice.speak("hello world", "UK English Male", {rate: 1.5});
+
+// responsiveVoice.speak("hello world", "UK English Male", {volume: 1});
+
+// responsiveVoice.speak("hello world", "UK English Male", {onstart: StartCallback, onend: EndCallback});
+
+// Speak a specified element on the page:
+
+// responsiveVoice.speak(document.getElementById("article-container").textContent);
+// cancel()
+
+// Stops playing the speech.
+
+// responsiveVoice.cancel();
+// voiceSupport()
+
+// Checks if browser supports native TTS
+
+// if(responsiveVoice.voiceSupport()) {
+
+//   responsiveVoice.speak("hello world");
+
+// }
+
+// Returns: true/false
+// getVoices()
+
+// var voicelist = responsiveVoice.getVoices();
+
+// Returns: a list of available voices
+// setDefaultVoice(string voice)
+
+// Allows setting a default voice, which will be used by responsiveVoice.speak whenever a voice is not specified as a parameter.
+
+// responsiveVoice.setDefaultVoice("US English Female");
+// setDefaultRate(number rate)
+
+// Allows setting a default rate of speech, which will be used by responsiveVoice.speak whenever rate is not included in the parameters. The rate parameter must be > 0 and <= 1.5
+// Please note this might not work with all voices, as certain voices don’t support variable rate of speech.
+
+// responsiveVoice.setDefaultRate(0.5);
+// isPlaying()
+
+// Detects if native TTS or TTS audio element is producing output.
+
+// if(responsiveVoice.isPlaying()) {
+
+//   console.log("I hope you are listening");
+
+// }
+
+// Returns: true/false
+// pause() and resume()
+
+// Pauses/Resumes speech
+
+// responsiveVoice.pause();
+
+// responsiveVoice.resume();
+// setTextReplacements(Array replacements)
+
+// Replaces selected words or expressions in the text. Useful for specifying pronunciation variations for different voices.
+
+// responsiveVoice.setTextReplacements expects an array of objects where each object is a replacement. The replacement object has the following parameters:
+
+//     searchvalue: (required) text to be replaced. Regular expressions are supported.
+//     newvalue: (required) replacement text.
+//     collectionvoices: (optional) Voice name (from ResponsiveVoice collection) for which the replacement will be applied. Can be a unique name or an array of names.
+//     systemvoices: (optional) Voice name (from System voices collection) for which the replacement will be applied. Can be a unique name or an array of names.
+
+// Examples
+
+// Replace “human” with “robot”. It will be replaced for any voice selected.
+
+// responsiveVoice.setTextReplacements([{
+
+//     searchvalue: "human",
+
+//     newvalue: "robot"
+
+// }]);
+
+// Replace “human” with “robot” and “dog” with “cat”.
+
+// responsiveVoice.setTextReplacements([
+
+//     {
+
+//         searchvalue: "human",
+
+//         newvalue: "robot"
+
+//     },
+
+//     {
+
+//         searchvalue: "dog",
+
+//         newvalue: "cat"
+
+//     }
+
+// ]);
+
+// Replace “human” with “robot” only for “UK English Female” voice profile.
+
+// responsiveVoice.setTextReplacements([{
+
+//     searchvalue: "human",
+
+//     newvalue: "robot",
+
+//     collectionvoices: "UK English Female"
+
+// }]);
+
+// Replace “human” with “robot” for “de-DE” and “fr-FR” system voices. These correspond to german and french on iOS devices.
+
+// responsiveVoice.setTextReplacements([{
+
+//     searchvalue: "human",
+
+//     newvalue: "robot",
+
+//     systemvoices: ["de-DE", "fr-FR"]
+
+// }]);
+
+// Replace any combination of numbers with the word “numbers”.
+
+// responsiveVoice.setTextReplacements([{
+
+//     searchvalue: /[0-9]+/g,
+
+//     newvalue: "numbers"
+
+// }]);
+// enableWindowClickHook()
+
+// On some devices, such as mobile, browsers prevent audio from being played without a user gesture. ResponsiveVoice can listen for a click on the window and take it as the user gesture required by the browser. This will grant ResponsiveVoice permission to play any audio from that moment on.
+
+// Note: This click hook is automatically enabled on mobile devices.
+
+// responsiveVoice.enableWindowClickHook();
+
+// Alternatively, in the case that listening for a click on the window is not possible, responsiveVoice.clickEvent() can be called directly from any user gesture and it will grant ResponsiveVoice the required permission.
+
+// responsiveVoice.clickEvent();
+// enableEstimationTimeout
+
+// Sometimes performance can have an impact on the TTS engine, causing unexpected behaviors when the system load is high. ResponsiveVoice uses a timeout as a fallback mechanism so the onstart and onend events will be triggered normally even if the TTS engine didn’t respond to the speak request. This is specially useful for a multiple phrase setup such as a dialog where the next phrase needs to be played after the current one.
+
+// Note: enableEstimationTimeout is enabled by default. 
+
+// We recommend to disable this feature for non-latin character languages. It can be disabled by setting the parameter as false:
+
+// responsiveVoice.enableEstimationTimeout = false;
