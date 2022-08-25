@@ -4,8 +4,8 @@ var x = document.getElementById("myDIV");
 x.onclick = myFunction;
 
 function myFunction() {
-  x.style.WebkitAnimation = "mymove 4s 2"; // Code for Chrome, Safari and Opera
-  x.style.animation = "mymove 4s 2"; // Standard syntax
+  x.style.WebkitAnimation = "mymove 2s 4"; // Code for Chrome, Safari and Opera
+  x.style.animation = "mymove 2s 4"; // Standard syntax
 }
 
 // Code for Chrome, Safari and Opera
@@ -20,15 +20,15 @@ x.addEventListener("webkitAnimationEnd", myEndFunction);
 
 function myStartFunction() {
   this.innerHTML = "animationstart event occured - The animation has started";
-  this.style.backgroundColor = "pink";
+  this.style.backgroundColor = "red";
 }
 
 function myRepeatFunction() {
   this.innerHTML = "animationiteration event occured - The animation was played again";
-  this.style.backgroundColor = "lightblue";
+  this.style.backgroundColor = "blue";
 }
 
 function myEndFunction() {
   this.innerHTML = "animationend event occured - The animation has completed";
-  this.style.backgroundColor = "lightgray";
+  this.style.backgroundColor = "black";
 }

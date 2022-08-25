@@ -1,1 +1,3 @@
 https://www.w3schools.com/ai/ai_tensorflow_intro.asp
+
+https://javascript.daypilot.org/scheduler/
