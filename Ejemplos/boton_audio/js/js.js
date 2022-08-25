@@ -9,7 +9,7 @@ boton.addEventListener("click", function(arguments) {
   if (!play) {
     // video.play();
     boton.src = "https://raw.githubusercontent.com/codefuncode/Curso-de-JavaScript/master/Ejemplos/boton_audio/img/stop-icon.png";
-    equalizador.src = "./img/start.gif";
+    equalizador.src = "https://github.com/codefuncode/Curso-de-JavaScript/blob/master/Ejemplos/boton_audio/img/start.gif?raw=true";
     responsiveVoice.speak(texto, "Spanish Female");
     play = true;
 
@@ -17,7 +17,7 @@ boton.addEventListener("click", function(arguments) {
     // video.pause();
     responsiveVoice.pause();
     boton.src = "https://raw.githubusercontent.com/codefuncode/Curso-de-JavaScript/master/Ejemplos/boton_audio/img/play-icon.png";
-    equalizador.src = "./img/stop.png";
+    equalizador.src = "https://github.com/codefuncode/Curso-de-JavaScript/blob/master/Ejemplos/boton_audio/img/stop.png?raw=true";
     play = false;
   }
 
