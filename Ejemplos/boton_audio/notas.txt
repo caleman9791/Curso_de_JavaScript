@@ -1,6 +1,9 @@
 https://iconarchive.com/show/spherical-icons-by-ahmadhania.1.html
 https://responsivevoice.org/
 
+
+https://www.youtube.com/watch?v=2Vfs9f_v1W0
+
 // responsiveVoice.speak("hello world", "UK English Male", {pitch: 2});
 
 // responsiveVoice.speak("hello world", "UK English Male", {rate: 1.5});
