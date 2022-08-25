@@ -1,4 +1,17 @@
 // responsiveVoice.speak("hello world");
+let img_start = new Image();
+img_start.src = './img/start.gif';
+let img_stop = new Image();
+img_stop.src = './img/stop.png';
+
+img_start.addEventListener("load", function(arguments) {
+  // alert(img_start.src);
+  // equalizador.src = img_start.src;
+});
+img_stop.addEventListener("load", function(arguments) {
+  // alert(img_stop.src);
+  // equalizador.src = img_stop.src;
+});
 let boton = document.querySelector(".boton");
 let equalizador = document.querySelector(".equalizador");
 let texto =
@@ -9,7 +22,7 @@ boton.addEventListener("click", function(arguments) {
   if (!play) {
     // video.play();
     boton.src = "https://raw.githubusercontent.com/codefuncode/Curso-de-JavaScript/master/Ejemplos/boton_audio/img/stop-icon.png";
-    equalizador.src = "./img/start.gif";
+    equalizador.src = img_start.src;
     responsiveVoice.speak(texto, "Spanish Female");
     play = true;
 
@@ -17,7 +30,7 @@ boton.addEventListener("click", function(arguments) {
     // video.pause();
     responsiveVoice.pause();
     boton.src = "https://raw.githubusercontent.com/codefuncode/Curso-de-JavaScript/master/Ejemplos/boton_audio/img/play-icon.png";
-    equalizador.src = "./img/stop.png";
+    equalizador.src = img_stop.src;
     play = false;
   }
 
