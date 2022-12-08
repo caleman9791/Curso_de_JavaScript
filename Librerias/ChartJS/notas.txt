@@ -1,0 +1,8 @@
+
+CDN para usar solamente con internet, recomendación de la librería.
+
+https://cdnjs.com/libraries/Chart.js
+
+
+Sitio web oficial 
+https://www.chartjs.org/

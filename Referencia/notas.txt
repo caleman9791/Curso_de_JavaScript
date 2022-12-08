@@ -1,0 +1,56 @@
+https://www.youtube.com/playlist?list=PLw7HUwIhY0nVEQ3EcD8Gv9P2ppY4pHmEu
+
+Complete JavaScript and HTML DOM Reference
+Revised January 2022
+
+JavaScript Reference
+
+Properties and Methods of all JavaScript Objects, with Examples:
+Array 
+String 
+Number 
+Math 
+Date 
+Global 
+RegExp 
+Classes 
+Error 
+Boolean 
+Operators 
+Statements 
+JSON
+
+Window Reference
+Properties and Methods of the Window Object, with Examples:
+Window 
+History 
+Location 
+Navigator 
+Screen
+
+HTML DOM Reference
+Properties and Methods of all DOM Objects, with Examples:
+Document 
+Element 
+Attributes 
+Events 
+Event 
+Objects 
+HTMLCollection 
+Style
+
+Web APIs
+Common Web APIs, with Examples:
+Console 
+Fetch 
+Fullscreen 
+Geolocation 
+History 
+MediaQueryList 
+Storage 
+Validation
+
+
+Referencias
+https://devdocs.io/javascript/about
+https://www.w3schools.com/jsref/default.asp
