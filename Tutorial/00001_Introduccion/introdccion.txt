@@ -1,1 +1,20 @@
-introdccion.txt
+JavaScript es un lenguaje de programación ampliamente utilizado en el desarrollo web, tanto en el lado del cliente como en el servidor. 
+
+Fue creado en 1995 por Brendan Eich mientras trabajaba en Netscape Communications Corporation. Desde entonces, ha crecido en popularidad y se ha convertido en uno de los lenguajes de programación más utilizados en la web.
+
+JavaScript es un lenguaje interpretado y dinámico que permite la creación de aplicaciones web interactivas y dinámicas. 
+
+
+Permite agregar comportamiento a las páginas web, validar formularios, crear efectos visuales, animaciones, interactuar con bases de datos y mucho más. Además, es un lenguaje de programación que puede ser utilizado tanto en el lado del cliente como del servidor, lo que lo hace muy versátil y flexible.
+
+JavaScript ha evolucionado mucho desde su creación y ahora es un lenguaje muy poderoso y completo, con muchas herramientas y bibliotecas disponibles para facilitar su uso. 
+
+
+Además, cuenta con una amplia comunidad de desarrolladores que trabajan en mejorar y expandir el lenguaje y su ecosistema.
+
+En resumen, JavaScript es un lenguaje de programación esencial para cualquier desarrollador web y una herramienta indispensable para crear sitios web modernos y dinámicos.
+
+=========================================================================
+JavaScript es un lenguaje de programación usado en el desarrollo de aplicaciones web. Este tiene una popularidad increíble dentro del entorno de desarrollo de interfaces gráficas e interactividad, lo cual son interpretados por un navegador web. JavaScript es interpretado por la mayoría de los navegadores web por no decir todos. La compatibilidad con todos los navegadores no siempre es la esperada, pues los navegadores deben implementar los estándares antes de que puedan ser interpretados. Cada vez es más uniforme esta compatibilidad. Sin embargo, es el lenguaje número 1 en el desarrollo de interfaces de usuario pensadas para la web.
+
+Fue creado en 1995 por Brendan Eich mientras trabajaba en Netscape Communications Corporation. JavaScript ha evolucionado mucho desde su creación. Hoy dia es un lenguaje muy poderoso y completo.Posee muchas herramientas y bibliotecas disponibles lo cual aplifica su potencial y facilita su implementacion. Por otro lado, cuenta con una amplia comunidad de desarrolladores que trabajan en mejoras y explnaciones el lenguaje y su ecosistema.
