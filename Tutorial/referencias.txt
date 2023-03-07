@@ -1,0 +1,11 @@
+Referencias 
+
+https://www.w3schools.com/Js/default.asp
+https://tutorialesprogramacionya.com/javascriptya/
+https://devdocs.io/javascript/
+https://www.tutorialsteacher.com/javascript
+https://www.javascript.com/learn
+https://learn.microsoft.com/en-us/shows/beginners-series-to-javascript/?levels=beginner&languages=javascript
+https://www.javascripttutorial.net/
+https://www.tutorialspoint.com/javascript/index.htm
+https://javascript.info/

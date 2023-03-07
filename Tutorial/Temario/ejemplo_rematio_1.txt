@@ -1,0 +1,591 @@
+The lesson plan
+Here’s a quick table of contents for your viewing pleasure:
+
+—JavaScript and its Ecosystem
+How to use this course
+What is JavaScript used for?
+The JavaScript ecosystem
+Varying versions of JavaScript
+Linking your JavaScript file
+Preparing your text editor
+The console
+Comments
+You don't need semicolons
+Strings, numbers, and booleans
+Declaring variables
+Functions
+Arrow functions
+Intro to objects
+If/else statements
+The NOT operator
+Null and undefined
+The BOM and the DOM
+Selecting an element
+Changing classes
+Listening to events
+Callbacks
+—Building simple components
+How to think like a developer
+How to use the starter template
+Do this for every component
+🛠️ Building an off-canvas menu
+🛠️ building a modal window
+Lessons from the building process
+Debugging errors
+How to use a linter
+Introduction to arrays
+Array methods
+For loops
+The forEach loop
+Selecting multiple elements
+Node vs Elements
+🛠️ Building an accordion
+Id, classes, tags, and attributes
+Changing CSS with JavaScript
+Getting CSS with JavaScript
+Changing attributes
+Finding an element's size and position
+DOM Traversals
+🛠️ Building a Tabbed Component
+🛠️ Carousel: HTML and CSS
+🛠️ Carousel: Switching slides with JavaScript
+🛠️ Carousel: Working the dots
+🛠️ Carousel: Positioning slides with JavaScript
+The listening element
+Default behaviors
+Event propagation
+Event delegation
+Removing event listeners
+🛠️ Modal: Closing the modal
+🛠️ Accordion: Event delegation
+🛠️ Tabby: Event delegation
+🛠️ Carousel: Event delegation
+—Transitions and Animations
+CSS transitions
+CSS animations
+Silky-smooth animations
+Integrating CSS transitions and animations with Javascript
+JavaScript animations
+The Greensock Animation API (GSAP)
+🛠️ Modal: Animating the modal
+🛠️ Modal: Animating the pointing hand
+🛠️ Modal: Animating the waving hand
+🛠️ Modal: Modal: Wave hand animation with JavaScript (using GSAP)
+🛠️ Modal: Wave hand animation with JavaScript (using GSAP)
+🛠️ Accordion: Animations
+🛠️ Carousel: Animations
+Learn JavaScript helped me understand transitions and animations even though I’ve failed so many times in the past. The lessons in Learn JavaScript are clear and easy to understand — and it’s way beyond my expectation.
+
+I found a better web development job thanks to the skills I learned from Learn JavaScript.
+
+Picture of Sirapop Lam-o-pas
+Sirapop Lam-o-pas
+
+—Useful JavaScript features
+Ternary operators
+And and OR operators
+Early returns
+Template literals
+Destructuring
+Default parameters
+Enhanced object literals
+Rest and spread operators
+Useful array methods
+Reduce
+Looping through objects
+Returning objects with implicit return
+🛠️ Accordion: Using useful JavaScript features
+🛠️ Tabby: Using useful JavaScript features
+🛠️ Carousel: Useful JavaScript features
+—JavaScript best practices
+Write declarative code
+Functions with a purpose
+Manage scope
+Reduce state changes
+Don't reassign
+Don't mutate
+Preventing Objects from mutating
+Preventing Arrays from mutating
+Write pure functions
+🛠️ Accordion: Refactor
+🛠️ Carousel: First refactor
+🛠️ Carousel: Refactoring the dots part
+🛠️ Carousel: Previous and next buttons
+🛠️ Carousel: Second refactor
+Changing text and HTML
+Creating HTML elements
+Adding multiple elements to the DOM
+Removing elements from the DOM
+🛠️ Carousel: Creating dots with JavaScript
+🛠️ Calculator: HTML and CSS
+🛠️ Calculator: Happy Path
+🛠️ Calculator: Testing the Happy Path Path
+🛠️ Calculator: Easy Edge Cases
+🛠️ Calculator: Difficult Edge Cases Cases
+🛠️ Calculator: Refactoring
+The Switch Statement
+🛠️ Calculator: Refactoring part 2
+🛠️ Popover: Making one popover
+🛠️ Popover: Making four popovers
+🛠️ Popover: Making popovers with JavaScript
+Learn JavaScript gave me a deep understanding of the language and its capabilities. I gained new perspectives on things I already know, and I learned new things like Forms and APIs — even though I am a professional web developer!
+
+Picture of Maxim Konoval
+Maxim Konoval
+
+Intro to forms
+Selecting form fields with JavaScript
+Form fields and their events
+Sanitize your output
+Generating unique IDs
+🛠️ Popover: Dynamic ID
+🛠️ Todolist: The HTML and CSS
+🛠️ Todolist: Creating tasks with JavaScript
+🛠️ Todolist: Deleting tasks with JavaScript
+🛠️ Typeahead: The HTML and CSS
+🛠️ Typeahead: Displaying predictions
+🛠️ Typeahead: Selecting a prediction
+🛠️ Typeahead: Bolding search terms
+The Date Object
+Getting a formatted date
+Getting the time
+Local time and UTC Time
+Setting a specific date
+Setting a date with Date methods
+Adding (or subtracting) date and time
+Comparing Dates and times
+🛠️ Datepicker: Initial HTML and CSS
+🛠️ Datepicker: Building the calendar
+🛠️ Datepicker: Building the datepicker with JavaScript
+🛠️ Datepicker: Previous and next buttons
+🛠️ Datepicker: Selecting a date
+🛠️ Datepicker: Positioning the datepicker
+🛠️ Datepicker: Showing and hiding
+Formatting a date with toLocaleString
+setTimeout
+setInterval
+🛠️ Countdown: The HTML and CSS
+🛠️ Countdown: The JavaScript
+🛠️ Countdown: Counting months
+🛠️ Countdown: Daylight Saving Time
+🛠️ Countdown: Counting years
+Introduction to Ajax
+Understanding JSON
+The Fetch API
+Possible data types
+JavaScript Promises
+Requests and responses
+Sending a POST request
+Authentication
+Handling errors
+Viewing response headers
+CORS and JSONP
+XHR vs Fetch
+Using an Ajax library
+Reading API documentation
+Understanding curl
+🛠️ Todolist: The Todolist API
+🛠️ Todolist: Fetching tasks
+🛠️ Todolist: Creating tasks
+🛠️ Todolist: Editing tasks
+🛠️ Todolist: Deleting tasks
+🛠️ Todolist: Creating tasks with Optimistic UI
+🛠️ Todolist: Handling Optimistic UI errors
+🛠️ Todolist: Editing tasks with Optimistic UI
+🛠️ Todolist: Deleting tasks with Optimistic UI
+🛠️ Todolist: Refactor
+🛠️ Typeahead: How to add Ajax
+🛠️ Typeahead: Adding Ajax
+🛠️ Typeahead: Handling errors
+🛠️ Google Maps Clone: Creating your first Google Map
+🛠️ Google Maps Clone: Fetching JSONP via JavaScript
+🛠️ Google Maps Clone: Drawing directions
+🛠️ Google Maps Clone: Driving directions
+🛠️ Google Maps Clone: Handling errors
+🛠️ Google Maps Clone: Adding stopovers
+🛠️ Google Maps Clone: Refactor
+Learn JavaScript is an incredible resource that helped me save time from searching around the internet for answers!
+
+Every time I jump into the course I learn something to deepen my javascript knowledge. Everything Zell taught laid an important foundation, and I immediately get to use them on practical projects.
+
+Picture of Lauralee Flores
+Lauralee Flores
+
+—Advanced Asynchronous JavaScript
+Requesting many resources at once New
+Asynchronous functions New
+Handling multiple awaits New
+Asynchronous loops New
+🛠️ Dota Heroes: Listing heroes
+🛠️ Dota Heroes: Filtering heroes (Part 1)
+🛠️ Dota Heroes: Filtering heroes (Part 2)
+🛠️ Dota Heroes: Refactoring
+🛠️ Dota Heroes: Hero Page New
+🛠️ Dota Heroes: Making the hero page robust New
+🛠️ Dota Heroes: Heroes page refactor
+Keyboard users
+Handling commonly used keys
+Keyboard events
+Understanding Tabindex
+Detecting the focused element
+Directing focus
+Preventing people from tabbing into elements
+How to choose keyboard shortcuts
+Creating single-key shortcuts
+🛠️ Off-canvas: Adding keyboard interaction
+🛠️ Modal: Adding keyboard interaction
+🛠️ Accordion: Adding keyboard interaction
+🛠️ Tabby: Adding keyboard interaction
+🛠️ Tabby: Refactoring
+🛠️ Carousel: Adding keyboard interaction
+🛠️ Carousel: Displaying help text
+🛠️ Calculator: Adding keyboard interaction
+🛠️ Popover: Keyboard
+🛠️ Popover: Refactor
+Keyboard shortcuts with Command and Control modifiers
+🛠️ Todolist: Keyboard
+🛠️ Typeahead: Keyboard
+🛠️ Typeahead: Selecting a prediction with the keyboard
+🛠️ Google Maps Clone: Keyboard
+🛠️ Dota Heroes: Keyboard
+🛠️ Datepicker: Tabbing in and out
+🛠️ Datepicker: Keyboard shortcuts
+Learn JavaScript cleared up many questions I had about JavaScript. I saved lots of time from googling, and I became more confident as a developer.
+
+This course is right for you if you want to build exciting UI components you always wanted to build.
+
+Picture of Israel Obiagba
+Israel Obiagba
+
+What is accessibility?
+How to use a screen reader
+Using NVDA
+Using Voiceover
+Aria roles
+Landmark roles
+Document structure roles
+Live region roles
+Widget roles
+Window and Abstract roles
+Accessible names and descriptions
+Hiding content
+ARIA properties and ARIA states
+ARIA for expandable widgets
+🛠️ Off-canvas: Accessibility
+ARIA for modal dialogs
+🛠️ Modal: Screen reader accessibility
+🛠️ Accordion: Screen reader accessibility
+ARIA for Tabbed components
+🛠️ Tabby: Screen reader accessibility
+🛠️ Tabby: Refactor
+🛠️ Carousel: Screen reader accessibility
+Roles that trigger Forms and Application modes
+What's next for accessibility
+The Scroll event
+🛠️ Auto-hiding Sticky-nav: HTML and CSS
+🛠️ Auto-hiding Sticky-nav: JavaScript
+🛠️ Auto-hiding Sticky-nav: Natural reveal
+Intersection Observer API
+Intersection Observer Options
+🛠️ Slide & Reveal
+🛠️ Slide & Reveal: Always fade-in when you scroll down
+🛠️ Slide & Reveal: Fine-tuning the animation
+🛠️ Infinite Scroll: Anatomy
+🛠️ Infinite Scroll: Infinite load
+🛠️ Infinite Scroll: Refactor
+🛠️ Infinite Scroll: Implementing the Infinite Scroll
+Mouse, Touch, and Pointers
+Mouse Events
+🛠️ Spinning Pacman: HTML and CSS
+🛠️ Spinning Pacman: JavaScript
+Touch events
+Pointer events
+Touch-action
+🛠️ Spinning Pacman: Supporting Touch
+Cloning elements
+🛠️ DragDrop: HTML and CSS
+🛠️ DragDrop: JavaScript
+🛠️ DragDrop: Creating a drop preview
+🛠️ DragDrop: Sortable drop preview
+🛠️ DragDrop: Robustness
+🛠️ DragDrop: Refactor
+Learn JavaScript helps to build your web fundamentals, which helps you with your work, regardless of what framework you decide to work in.
+
+I highly recommend taking this course whether you’re starting out or already experienced in Javascript.
+
+Picture of Tom Mulkins
+Tom Mulkins
+
+—Object-oriented programming
+Before we begin
+What is Object Oriented Programming?
+Four Flavours of Object Oriented Programming
+Inheritance
+This in JavaScript
+Call, bind, apply
+Creating Derivative Objects
+Composition vs Inheritance
+Polymorphism
+Encapsulation
+Closures
+Encapsulation in Object Oriented Programming
+Getters and Setters
+What OOP flavour to use
+When to use Object Oriented Programming
+Creating reusable code by writing libraries
+Two Types of libraries Updated
+Including libraries with Script tags
+Including libraries with ES6 Modules
+Dynamic imports
+🛠️ Off Canvas: Building a Library Updated
+🛠️ Modal: Library setup
+🛠️ Modal: Opening the Modal
+🛠️ Modal: Closing the modal
+🛠️ Modal: Inheritance and Polymorphism
+🛠️ Modal: Resolving differences between subclasses
+🛠️ Modal: Exposing properties and methods
+🛠️ Accordion: Building a library
+🛠️ Tabby: Building a library
+🛠️ Carousel: Building a library
+🛠️ Calculator: Library
+🛠️ Calculator: Fixing the Clear Key
+🛠️ Calculator: Handling other keys
+🛠️ Calculator: State
+🛠️ Popover: Library
+🛠️ Popover: Adding event listeners
+🛠️ Typeahead: Library
+🛠️ DatePicker: Library
+—Vanilla JS to Frameworks
+🛠️ Building a Tiny framework
+🛠️ Tiny: Add event listeners
+🛠️ Tiny: Updating state
+🛠️ Tiny: Rendering Child Components
+🛠️ Tiny: Changing Parent State
+🛠️ Tiny: Passing Props
+🛠️ Tiny: Multiple Props
+🛠️ Tiny: Passing values from sibling components
+🛠️ Tiny: Mounting
+🛠️ Tiny: Passing props to descendants
+🛠️ Tiny: A tiny refactor
+—Single page applications
+What is a Single Page App?
+Simple SPA using only CSS
+The Location Interface
+The History Interface
+Minimum viable server for a SPA
+🛠️ Dota SPA: Introduction
+🛠️ Dota SPA: Building The Heroes List
+🛠️ Dota SPA: Building the filters
+🛠️ Dota SPA: Filtering heroes
+🛠️ Dota SPA: Displaying filtered heroes
+🛠️ Dota SPA: Getting Ready to build the Hero Page
+🛠️ Dota SPA: Building the hero page
+🛠️ Dota SPA: Lore and abilities
+🛠️ Dota SPA: Routing for Single-page apps
+🛠️: Practical lessons where we build things.
+
+Learn JavaScript is my number one choice for learning JavaScript. I finally feel that JavaScript is within my reach.
+
+Picture of Elmir Halebic
+Elmir Halebic
+
+Learn to build 20 components
+Learn to build practical components you use at work — you get to:
+
+Understand how each component works
+Build them from scratch (without frameworks or libraries)
+Tweak them so you improve their usability and accessibility.
+We’ll cover each component step-by-step — even if the difficulty of components rises as you go thorugh the course.
+
+Here are the 20 components you'll build:
+
+Off-canvas Menu
+Modal Window
+Accordion
+Tabbed Component
+Carousel
+Calculator
+Popover
+Todolist
+Typeahead
+Datepicker
+Countdown Timer
+Google Maps Clone
+Dota Heroes Page
+Auto-hiding Sticky Nav
+Slide & Reveal
+Infinite Scroll
+Spinning Pacman
+Drag and Drop
+A Tiny Framework
+Dota Heroes SPA
+Here's a sneak peek of the components:
+
+I’m no longer afraid to show my work at job interviews because I have became much more confident in my JavaScript skills — thanks to Learn JavaScript.
+
+The course showed me a clear path to learn the language. It integrated theory into real-life projects and helped me stay focused and motivated while learning.
+
+Picture of Ion Leahu
+Ion Leahu
+
+Written to help you learn
+I have a bold aim for Learn JavaScript — When you complete the course, you can build anything you want from scratch without Googling for answers.
+
+You will understand JavaScript no matter what level you’re at.
+
+I improved the lessons over and over based on past students’ experiences. You’ll learn the right things in the right order. I’m here to ensure you have the best possible experience with JavaScript.
+
+Learn JavaScript showed me how to move from a beginner level to an intermediate level — it took me through all the steps I need to build components, but it doesn’t stop there. It showed me how to improve the components and include best practices.
+
+It was hard for me to go from beginner to intermediate from other courses, but I found the answer in Learn JavaScript.
+
+Picture of Pelle Lundgren
+Pelle Lundgren
+
+Bonus resources
+60-minute calls with Zell
+You get two 60-minute video calls with me if you grab the Guided Instruction package (more on this later). You can redeem these calls anytime, subject to my availability. No expiry deadline.
+
+You can ask me anything you want during these calls. I can help you:
+
+Review your code
+Debug your code
+Pair program with you
+Answer any questions you have (even if they’re not JavaScript related).
+I wish Learn JavaScript was around when I first tried to learn JavaScript. It changed the way I approach JavaScript. Now, I actually know what I’m doing when I write JavaScript!
+
+Besides showing me JavaScript fundamentals, Learn JavaScript explained how to use these fundamentals to do things we’ll encounter in the actual world — it’s one thing to learn what an Array is, but another to build a component and go: “Oh, so that’s why I need to know what the hell an Array is!”
+
+Picture of Kevin Powell
+Kevin Powell
+
+The Learn JavaScript Community
+You get access to a community of students who’re learning JavaScript – like you. You can ask questions, provide answers, and form accountability groups to nail down your JavaScript knowledge.
+
+I’ll also hang out in the community to help answer questions. You can find me there almost every day.
+
+Learn JavaScript is detailed and well structured. After going through the course, I was able to help newer programmers with their questions!  
+
+Picture of Michiko Y
+Michiko Y
+
+Enroll in Learn JavaScript
+Choose one of these three packages.
+
+Guided
+Guided gives you all the support you need to become great at JavaScript.
+
+You’ll get direct feedback from me through 1-1 video calls. You’ll also get all 22 modules of Learn JavaScript, and a private community of learners to keep you motivated.
+
+What you get with Guided Instruction:
+
+Two 60-minute video calls with Zell
+22 modules of Learn JavaScript (300+ lessons)
+Learn to build 20 real components
+Lifetime access to Learn JavaScript Community
+Mastery
+Mastery gives you all 22 modules of Learn JavaScript. Each lesson builds on top of the previous lesson to help you become a great frontend developer.
+
+By the end of the course, you’ll be able to build anything you want from scratch, without Googling.
+
+What you’ll get with Mastery Pack:
+
+22 modules of Learn JavaScript (300+ lessons).
+Learn to build 20 real components.
+Lifetime access to Learn JavaScript Community
+Starter
+Starter is perfect for you if you want to learn JavaScript, but you’re not ready to dive all-in. You’ll build a strong JavaScript foundation that lets you learn concepts on your own with less effort.
+
+Besides the theory lessons, you also get to make five interactive components. You will begin to think like a developer.
+
+Here’s what you get with Starter Pack:
+
+7 modules of Learn Javascript (69 lessons).
+Learn to build 5 real components.
+Lifetime access to Learn JavaScript Community
+Registration is closed
+Registration is closed for Learn JavaScript right now so you’ll have to wait for the next batch to begin — on 2nd January, 2023.
+
+Please leave your name and email to join the waitlist if you’d like to be kept informed.
+
+When you join the waitlist, I send you an email course to help you understand how to learn JavaScript on your own. This course is called JavaScript Roadmap. It’s yours for free.
+
+Reviews from students who joined Learn JavaScript
+This course gave me the confidence to call myself a front-end developer.I know how to start, how to code it up, and how to search for (and understand) the parts that I don’t know yet.
+
+I went from knowing nothing about JavaScript to building a custom design system for my company entirely in JavaScript. What’s more, each component I build is also accessible thanks to Zell’s accessibility lessons.
+
+Picture of Mark Teekman
+Mark Teekman
+
+Zell explains things in a way that no other instructor has been able to do in my 15+ years of trying to “self educate” in the world of Javascript.
+
+In this course, Zell integrates every piece of JavaScript theory into building real UI. He shows you how to build simple things, then how to refactor the code with useful modern techniques.
+
+Learn JavaScript helped increase my confidence at JavaScript. I’ve since refactored our style guide at work to completely remove jQuery. I also have the confidence to start a Vue project.
+
+Picture of Joshua Briley
+Joshua Briley
+
+Learn JavaScript is the ONLY course that helped me understand JavaScript. It explains JavaScript in depth with lots of examples. It also helped me learn to think like a developer.
+
+I’m able to understand other developer’s code, build applications myself, and even answer questions on Stack Overflow.
+
+Picture of Adam Ragheb
+Adam Ragheb
+
+Learn JavaScript is the best and most helpful JavaScript course I found.
+
+I used to think that JavaScript is overwhelming and hard. This course breaks JavaScript into doable chunks. Each lesson is clear and concise. I don’t feel overwhelmed or confused as I go through them.
+
+I gained the confidence that I can not only understand JavaScript, but I can master it.
+
+Picture of Jesse Mcintire
+Jesse Mcintire
+
+I love the step-by-step structure in Learn JavaScript. I also love the text-based approach to lessons. They helped me understand and internalise JavaScript instead of feeling “I just watched some videos”.
+
+Picture of Dave Henson
+Dave Henson
+
+Learn JavaScript is the best way to learn JavaScript. I never found anything like it out there. It starts all the way from the beginning. And it shows you understandable code examples all the way through.
+
+The course pushed me forward in my coding career. JavaScript became fun to write. I no longer avoid JavaScript.
+
+Picture of Robert Mittl
+Robert Mittl
+
+Learn JavaScript helped me discover holes in my knowledge even though I have a few years of JavaScript experience!
+
+I understood JavaScript much better than before. I became more confident when working with frameworks and libraries, and I spend less time on Google and Stack Overflow
+
+Picture of Oriol Gasquez
+Oriol Gasquez
+
+Learn JavaScript is excellent. It is beginner friendly and has very clear explanations. It does not assume I knew anything and zip through things unlike other courses.
+
+It’s very easy for me to learn with the examples and source code provided.
+
+Picture of Tim St-john
+Tim St-john
+
+Learn JavaScript is easy to follow. Zell seems to knows what people struggle with. He uses examples to demonstrate concepts.
+
+I’m able to learn faster compared to other methods I tried. And now, I am able to complete Codewars challenges.
+
+Picture of Erik Schjolberg
+Erik Schjolberg
+
+This is the first course where I learned to differentiate which parts of JavaScript are important and which parts are not.
+
+I used the knowledge I learned to create real components. It’s very satisfying to see my code doing something of real and practical use.
+
+Picture of Jake Chiam
+Jake Chiam
+
+Registration is closed
+Registration is closed for Learn JavaScript right now so you’ll have to wait for the next batch to begin — on 2nd January, 2023.
+
+Please leave your name and email to join the waitlist if you’d like to be kept informed.
+
+When you join the waitlist, I send you an email course to help you understand how to learn JavaScript on your own. This course is called JavaScript Roadmap. It’s yours for free.

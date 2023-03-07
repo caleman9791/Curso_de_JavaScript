@@ -55,3 +55,21 @@ week
 <input type="time">
 <input type="url">
 <input type="week">
+
+
+https://bluuweb.github.io/desarrollo-web-bluuweb/11-11-js-poo/#%C2%BFque-es-poo
+https://devdocs.io/javascript/classes
+https://devdocs.io/javascript-classes/
+
+HTTP Documentation
+https://httpwg.org/specs/
+
+En esta ocasión hice un video con el funcionamiento de Battery Status API de #JavaScript 
+#codefuncode
+#tutorwebenlinea
+#caleman9791
+https://youtu.be/RC4I9uWwpOc
+
+Aprende programación web, asesoría académica profesional disponible en Tutor web en linea
+#tutorwebenlinea
+

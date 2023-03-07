@@ -1,0 +1,12 @@
+https://www.w3schools.com/js/DEFAULT.asp
+https://www.w3schools.com/jsref/default.asp
+https://www.tutorialspoint.com/javascript/index.htm
+https://www.javatpoint.com/javascript-tutorial
+https://javascript.info/
+https://devdocs.io/javascript/
+https://getbootstrap.com/docs/4.6/getting-started/introduction/
+https://devdocs.io/dom/document_object_model
+https://devdocs.io/dom/css_object_model
+https://www.javascripttutorial.net/javascript-dom/javascript-style/
+
+Importante element.style.['-webkit-text-stock'];

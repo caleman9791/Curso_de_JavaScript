@@ -1,0 +1,47 @@
+Basics
+
+    What is JavaScript
+    Setup JavaScript Dev Environment
+    HTML <script> Tag for JavaScript
+    JavaScript Syntax
+    MessageBoxes in JavaScript
+    JavaScript Variables
+    JavaScript Operators
+    Functions in JavaScript
+    if, else Conditions in JavaScript
+    JavaScript switch Statement
+    For Loop in JavaScript
+    While Loop in JavaScript
+    Scope in JavaScript
+    eval() Function in JavaScript
+    Error Handling in JavaScript
+    Strict Mode in JavaScript
+    What is JavaScript Hoisting?
+    JavaScript Learning Resources
+
+JavaScript DataTypes
+
+    JavaScript - Data Types
+    JavaScript - String
+    JavaScript - String Methods
+    JavaScript - Numbers
+    JavaScript - Boolean
+    JavaScript - Object
+    JavaScript - Date
+    JavaScript - Date Methods
+    JavaScript - Array
+    JavaScript - Array Methods
+    JavaScript - null and undefined
+
+JavaScript Test
+Object Oriented JavaScript
+
+    Create a Class in JavaScript
+    JavaScript Objects In Depth
+    this Keyword in JavaScript
+    new Keyword in JavaScript
+    Prototype in JavaScript
+    Inheritance in JavaScript
+    Closure in JavaScript
+    Immediately Invoked Function Expression (IIFE) Pattern in JavaScript
+
